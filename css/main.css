@@ -848,3 +848,18 @@ header {
 .arrow-right-2 {
     left: 62%;
 }
+.light-button {
+  border: 1px solid #ACACAC;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 4px 15px;
+}
+
+.button-block .red-badge-34 {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.button-block .light-button {
+  border-radius: 0 4px 4px 0px;
+  border-left: 0;
+}
