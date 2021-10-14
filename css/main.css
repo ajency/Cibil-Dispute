@@ -49,6 +49,7 @@
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   padding: 4px 10px 2px;
+  cursor: pointer;
 }
 
 .breadcrumbs-listing--list.active {
@@ -572,8 +573,8 @@ div {
 }
 .link {
   text-decoration: underline;
+  cursor: pointer;
 }
-
 .link:hover {
   color: #2C2C2C;
 }
