@@ -1192,7 +1192,13 @@ header {
     flex-direction: column;
   }
 }
-
+@media (max-width: 767px) {
+  .section-full-width-sm {
+    margin-left: -16px;
+    margin-right: -16px;
+    border-radius: 0;
+  }
+}
 
 .listing-box {
   background: #F9F9F9;
