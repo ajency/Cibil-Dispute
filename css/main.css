@@ -966,7 +966,7 @@ header {
 }
 .main-page.cat-listing::after {
   content: "";
-  height: 318px;
+  height: 328px;
 }
 
 .main-page .inner-main-page {
