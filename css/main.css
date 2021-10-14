@@ -871,6 +871,53 @@ header {
 .arrow-right-2 {
     left: 62%;
 }
+.header-section .go-back:hover {
+  color: white;
+}
+
+.listing-box {
+  background: #F9F9F9;
+  border: 1px solid #F9F9F9;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  min-height: 180px;
+}
+
+.listing-box--border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.red-badge {
+  background: #D74025;
+  border-radius: 4px;
+}
+
+.red-badge-34 {
+  width: 34px;
+  height: 34px;
+}
+
+.white-badge {
+  background: white;
+  border-radius: 4px;
+}
+
+.white-badge-circle {
+  border-radius: 100%;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
 .light-button {
   border: 1px solid #ACACAC;
   box-sizing: border-box;
