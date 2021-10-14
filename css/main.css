@@ -969,7 +969,7 @@ header {
 }
 .main-page.cat-listing::after {
   content: "";
-  height: 328px;
+  height: 307px;
 }
 
 .main-page .inner-main-page {
