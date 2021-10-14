@@ -30,6 +30,32 @@
     font-weight: normal;
     font-style: normal;
 }
+.breadcrumbs {
+  display: block;
+}
+
+.breadcrumbs-listing {
+  display: flex;
+}
+
+.breadcrumbs-listing--list {
+  font-family: Intro Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #707070;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 4px 10px 2px;
+}
+
+.breadcrumbs-listing--list.active {
+  font-family: Intro Regular;
+  color: #2C2C2C;
+}
+
 .page-title {
     font-family: Intro Regular;
     font-style: normal;
@@ -37,6 +63,14 @@
     font-size: 32px;
     line-height: 44px;
     letter-spacing: -0.01em;
+}
+.sub-page-title {
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .title {
     font-family: Intro Bold;
@@ -128,6 +162,9 @@ div {
 }
 .text-white {
     color: #fff;
+}
+.text-black {
+  color: #000;
 }
 .bg-white {
     background-color: #fff;
@@ -505,11 +542,17 @@ div {
     background: #dddddd;
     border-radius: 4px 4px 0px 0px;
 }
+.border-top-thick-5 {
+  height: 5px;
+}
 .border-dashed-blue {
     border: 1px dashed #3ea3ce;
 }
 .border-radius-4 {
     border-radius: 4px;
+}
+.border-radius-6 {
+  border-radius: 6px;
 }
 .overflow-hidden {
     overflow: hidden;
@@ -526,6 +569,13 @@ div {
 }
 .align-items-center {
     align-items: center;
+}
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #2C2C2C;
 }
 body {
     padding: 0;
