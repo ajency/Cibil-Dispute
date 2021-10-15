@@ -1097,9 +1097,6 @@ header {
     margin-right: 20px;
   }
 }
-.lifecycle .step .para-bold-dark {
-    margin-bottom: 0px;
-}
 
 @media (max-width: 991px) {
   .lifecycle .step .para-bold-dark {
