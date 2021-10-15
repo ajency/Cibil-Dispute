@@ -231,7 +231,11 @@ div {
 .align-items-center {
     align-items: center;
 }
-
+@media screen and (max-width: 992px)
+  .col-md-5 {
+      width: 100%;
+  }
+}
 .w-100 {
     width: 100% !important;
 }
