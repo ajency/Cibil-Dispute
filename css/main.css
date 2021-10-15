@@ -232,7 +232,9 @@ div {
     align-items: center;
 }
 .col-md-5 {
-    width: 100%;
+    @media(max-width: 991px){
+      width: 100%;
+    }
 }
 .w-100 {
     width: 100% !important;
