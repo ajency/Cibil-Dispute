@@ -1896,6 +1896,34 @@ header {
 
 .panel a {
   text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+.panel a:before {
+  content: '';
+  border: 2px solid #2C2C2C;
+  border-radius: 30px;
+  padding: 12px;
+  position: absolute;
+  top: 17px;
+  right: 14px;
+}
+
+.panel a:after {
+  content: '';
+  background: url(../img/arrow-down-black.svg);
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 28px;
+}
+
+.panel a:focus {
+  outline: 0;
 }
 
 .panel + .panel {
