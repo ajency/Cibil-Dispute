@@ -278,6 +278,9 @@ div {
 .p-60 {
     padding: 60px !important;
 }
+.pt-0{
+  padding-top: 0;
+}
 .mb-1 {
     margin-bottom: 1px;
 }
@@ -1900,27 +1903,23 @@ header {
   position: relative;
   display: block;
 }
-
-.panel a:before {
-  content: '';
-  border: 2px solid #2C2C2C;
-  border-radius: 30px;
-  padding: 12px;
-  position: absolute;
-  top: 17px;
-  right: 14px;
+.panel a.collapsed:after {
+  transform: rotate(0deg);
+  transition: transform 400ms ease-in;
 }
 
 .panel a:after {
   content: '';
   background: url(../img/arrow-down-black.svg);
   background-repeat: no-repeat;
-  width: 14px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   display: block;
   position: absolute;
   right: 20px;
-  top: 28px;
+  top: 20px;
+  transform: rotate(180deg);
+  transition: transform 400ms ease-in;
 }
 
 .panel a:focus {
@@ -1929,4 +1928,73 @@ header {
 
 .panel + .panel {
   margin-top: 20px !important;
+}
+@media (max-width: 991px) {
+  .panel .block-content {
+    display: flex;
+  }
+  .panel .block-content .border-line {
+    border-left: 1px solid #dde0ef !important;
+    border-bottom: 0 !important;
+    height: 100%;
+    width: 0;
+  }
+}
+
+.icon-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-group .img-wrap {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: #f9f9f9;
+}
+
+.icon-group .img-wrap img {
+  width: 18px;
+  object-fit: contain;
+  margin: 11px;
+}
+
+.icon-group .border-line {
+  width: 100%;
+}
+
+.icon-group .border-line-30 {
+  width: 30px;
+}
+
+@media (max-width: 991px) {
+  .icon-group {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .panel .panel-body .row {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.panel .panel-body .column-type-2 .col-block {
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .panel .panel-body .column-type-2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .panel .panel-body .column-type-2:last-child {
+    margin-bottom: 0px;
+  }
 }
