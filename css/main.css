@@ -1372,6 +1372,7 @@ header {
 .major-steps {
   position: relative;
   padding: 35px 30px 77px;
+  margin: 0 30px;
 }
 @media (max-width: 991px) {
   .major-steps .step {
