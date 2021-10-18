@@ -1845,6 +1845,10 @@ header {
   padding: 14px 21px 12px 22px;
   text-decoration: none;
 }
+.light-button-group a.active{
+  background: #00A6CA;
+  color: white;
+}
 
 .light-button-group a:hover {
   color: #707070;
