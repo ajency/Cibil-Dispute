@@ -892,6 +892,9 @@ div {
 .align-items-center {
     align-items: center;
 }
+.align-items-end {
+    align-items: end;
+}
 .flex-row {
   flex-direction: row;
 }
