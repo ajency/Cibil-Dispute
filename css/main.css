@@ -1132,6 +1132,13 @@ header {
 .max-width-530 {
     max-width: 530px;
 }
+.lifecycle{
+  @media(min-width: 992px){
+    margin: 30px;
+    background: #F9F9F9;
+    border-radius: 6px;
+  }
+}
 .lifecycle .step {
     position: relative;
     z-index: 2;
@@ -1647,7 +1654,7 @@ header {
     opacity: 0.85;
     border: 0;
     background: transparent;
-    padding: 20px 30px;
+    padding: 20px 15px;
     bottom: 0;
   }
 }
