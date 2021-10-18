@@ -1567,6 +1567,9 @@ header {
   .column-type-1 {
     width: 50%;
   }
+  .column-type-1:last-child{
+    margin-bottom: 0 !important;
+  }
 }
 
 @media (max-width: 767px) {
