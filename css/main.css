@@ -252,7 +252,9 @@ a:hover {
 }
 
 a:focus {
-  outlin: 0;
+  outline: 0;
+  text-decoration: none;
+  color: unset;
 }
 
 .align-items-center {
