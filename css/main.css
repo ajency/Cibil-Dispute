@@ -1176,6 +1176,7 @@ header {
 
 .main-page .message.m-visible {
   display: flex;
+  align-items: flex-start;
 }
 
 @media (min-width: 992px) {
