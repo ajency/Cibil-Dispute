@@ -1987,7 +1987,7 @@ header {
 }
 @media (max-width: 991px) {
   .img-wrap {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 .img-wrap img {
@@ -2023,7 +2023,8 @@ header {
 @media (max-width: 991px) {
   .panel .block-content .row:after {
     width: 1px;
-    height: calc(100% - 30px);
+    height: calc(100% - 20px);
+    left: 25px;
   }
 }
 
