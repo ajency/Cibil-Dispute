@@ -1749,8 +1749,9 @@ header {
 .header-section .go-back {
   white-space: nowrap;
 }
-.header-section .go-back:hover {
+.header-section .go-back:hover, .header-section .go-back:focus {
   color: white;
+  outline: 0;
 }
 
 @media (max-width: 767px) {
