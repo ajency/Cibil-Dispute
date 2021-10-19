@@ -1382,11 +1382,7 @@ header {
     border-right: 2px dashed #3ea3ce;
     position: relative;
 }
-@media (max-width: 991px) {
-  .lifecycle .verticle-arrow {
-    border-width: 1px;
-  }
-}
+
 .lifecycle .verticle-arrow::after {
     content: "";
     position: absolute;
@@ -1422,6 +1418,7 @@ header {
 @media (max-width: 991px) {
   .lifecycle .verticle-arrow {
     height: 46px;
+    border-width: 1px;
   }
 }
 
