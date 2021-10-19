@@ -933,8 +933,9 @@ a:focus {
   border-left: 0 !important;
 }
 .border-dashed-blue {
-    border: 1px dashed #3ea3ce;
+    border: 2px dashed #3ea3ce;
 }
+
 .border-radius-4 {
     border-radius: 4px;
 }
@@ -1411,7 +1412,7 @@ header {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 20px solid #3ea3ce;
-    left: -9.5px;
+    left: -8.5px;
     right: 0;
     margin: auto;
     top: 26px;
