@@ -1854,7 +1854,10 @@ header {
   background: #00A6CA;
   color: white;
 }
-
+.light-button-group a.active:hover, .light-button-group a.active:focus{
+  color: white;
+  outline: 0;
+}
 .light-button-group a:hover {
   color: #707070;
 }
