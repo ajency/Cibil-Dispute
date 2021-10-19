@@ -1430,7 +1430,7 @@ header {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-top: 10px solid #3ea3ce;
-    left: -5.3px;
+    left: -5px;
     top: 18px;
   }
 }
@@ -1564,7 +1564,7 @@ header {
 }
 @media (max-width: 991px) {
   .major-steps .right-left-border img:first-child {
-    margin-left: -6px;
+    margin-left: -5px;
   }
 }
 .major-steps .right-left-border img:last-child {
@@ -1572,7 +1572,7 @@ header {
 }
 @media (max-width: 991px) {
   .major-steps .right-left-border img:last-child {
-    margin-right: -6px;
+    margin-right: -5px;
   }
 }
 
