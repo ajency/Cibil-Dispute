@@ -198,6 +198,13 @@ div {
   color: #2C2C2C;
 }
 
+.text-yellow {
+  color: #FCD93E;
+}
+
+.text-yellow-hover:hover {
+  color: #FCD93E;
+}
 @media (min-width: 992px) {
   .text-dark-black-md {
     color: #2C2C2C;
@@ -236,6 +243,18 @@ div {
 .d-inline-block {
     display: inline-block;
 }
+.d-grid {
+  display: grid;
+}
+
+a:hover {
+  color: unset;
+}
+
+a:focus {
+  outlin: 0;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -2006,4 +2025,60 @@ header {
   .panel .panel-body .column-type-2:last-child {
     margin-bottom: 0px;
   }
+}
+.user-view {
+  border: 1px solid #00A6CA;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.user-view .section-header {
+  border-bottom: 1px solid #00A6CA;
+  min-height: 123px;
+}
+
+.user-view .section-body .list-view {
+  position: relative;
+}
+
+.user-view .section-body .list-view .step {
+  margin-bottom: 20px;
+  align-items: baseline;
+}
+
+.user-view .section-body .list-view .step .count {
+  width: 26px;
+  height: 26px;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  margin-right: 24px;
+  padding-top: 2px;
+  display: inline-table;
+  position: relative;
+  z-index: 1;
+}
+
+.user-view .section-body .list-view .step .count-blue {
+  background: #00A6CA;
+}
+
+.user-view .section-body .list-view .step .count-orange {
+  background: #F16E00;
+}
+
+.user-view .section-body .list-view .step:last-child {
+  margin-bottom: 0;
+}
+
+.user-view .section-body .list-view:after {
+  content: '';
+  background: #DDDDDD;
+  width: 2px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 12px;
+  right: 0;
 }
