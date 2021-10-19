@@ -2013,7 +2013,7 @@ header {
 .panel .block-content .row:after {
   content: '';
   background: #DDE0EF;
-  width: calc(100% - 30px);
+  width: calc(100% - 10px);
   height: 1px;
   position: absolute;
   top: 30px;
