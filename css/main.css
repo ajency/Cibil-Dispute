@@ -2115,6 +2115,8 @@ header {
 .modal-dialog {
   display: inline-block;
   vertical-align: middle;
+  width: 100%;
+  margin: 0;
 }
 @media (min-width: 992px) {
   .modal-dialog {
