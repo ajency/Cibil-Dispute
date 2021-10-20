@@ -2102,3 +2102,49 @@ header {
   left: 12px;
   right: 0;
 }
+
+.modal {
+  text-align: center;
+}
+
+.modal-dialog {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.modal-header {
+  border: 0;
+  padding: 0;
+}
+
+.modal-header .close {
+  opacity: 1;
+  position: absolute;
+  right: -23px;
+}
+
+.modal-header .close:focus {
+  outline: 0;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: 0;
+}
+
+.modal-content .glyphicon {
+  width: 14px;
+  height: 18px;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.modal-backdrop.in {
+  background: #000000;
+  opacity: 0.9;
+}
