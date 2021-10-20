@@ -438,9 +438,17 @@
                     </button>
                 </div>
                 <div class="modal-body" >
-                    
+                    <div class="loader mb-md-60">
+                        <div class="animating-loader">
+                        </div>
+                        <div class="loader-text para-bold-dark text-white text-uppercase">loading 
+                            <span class="text-blue">.</span>
+                            <span class="text-blue">.</span>
+                            <span class="text-blue">.</span>
+                        </div>
+                    </div>
                     <div id="myGallery" class="carousel slide" data-interval="false">
-                        <div class="carousel-inner border-radius-6">
+                        <div class="carousel-inner border-radius-6 hide">
                             <div class="item active">
                                 <div class="item1">
                                     <iframe src="https://www.youtube.com/embed/Zhawgd0REhA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
@@ -463,6 +471,34 @@
                         </div>
 
                         <div class="m-hidden">
+                            <div class="loader d-flex mt-md-60">
+                                <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev">
+                                    <div class="nav-block prev">
+                                        <div class="d-flex">
+                                            <div class="image-loader"></div>
+                                            <div class="content ml-md-20">
+                                                <div class="title-loader"></div>
+                                                <div class="title-loader"></div>
+                                                <div class="time-loader"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <div class="line"></div>
+                                <a class="right carousel-control" href="#myGallery" role="button" data-slide="next">
+                                    <div class="nav-block prev">
+                                        <div class="d-flex">
+                                            <div class="image-loader"></div>
+                                            <div class="content ml-md-20">
+                                                <div class="title-loader"></div>
+                                                <div class="title-loader"></div>
+                                                <div class="time-loader"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex mt-md-20 thumbs hide">
                             <div class="d-flex mt-md-20">
                                 <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev">
                                     <div class="nav-block prev">
@@ -871,6 +907,13 @@
             autoplaySpeed: 4000,
             spacing: 30
 
+        });
+        $(".video-slider").click(function() {
+            setTimeout(function(){
+                $(".thumbs").removeClass("hide");
+                $(".carousel-inner").removeClass("hide");
+                $(".loader").addClass("hide");
+            }, 1000);
         });
     </script>
 </body>

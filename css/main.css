@@ -156,6 +156,9 @@
 .text-accent-grey {
   color: #ACACAC;
 }
+.text-blue {
+  color: #01A6CA;
+}
 @media screen and (max-width: 992px) {
     .f-sm-14 {
         font-size: 14px;
@@ -2228,4 +2231,71 @@ iframe, object, embed, video {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.animating-loader,
+.animating-loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+.animating-loader {
+  margin: 20px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.5);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.5);
+  border-left: 1.1em solid #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.loader .image-loader {
+  width: 198px;
+  height: 98px;
+  background: #ACACAC;
+  border-radius: 4px;
+}
+
+.loader .title-loader {
+  width: 166px;
+  height: 20px;
+  background: #707070;
+  border-radius: 4px;
+  margin-bottom: 7px;
+}
+
+.loader .time-loader {
+  width: 46px;
+  height: 20px;
+  background: #ACACAC;
+  border-radius: 4px;
+  margin-top: 22px;
 }
