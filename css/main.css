@@ -2143,6 +2143,11 @@ header {
   height: 100%;
   vertical-align: middle;
 }
+@media(max-width: 991px){
+  .modal:before {
+    height: 50%;
+  }
+}
 
 .modal-backdrop.in {
   background: #000000;
