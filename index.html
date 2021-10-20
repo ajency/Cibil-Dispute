@@ -533,10 +533,10 @@
                             </div>
                         </div>
                         <div class="m-visible">
-                            <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev">
+                            <a class="left carousel-control hide" href="#myGallery" role="button" data-slide="prev">
                             <img src="https://ajency.github.io/Cibil-Dispute/img/forward-arrow.svg" alt="" width="15px" class="f-arrow-rotate-180 glyphicon glyphicon-chevron-left">
                             </a> 
-                            <a class="right carousel-control" href="#myGallery" role="button" data-slide="next">
+                            <a class="right carousel-control hide" href="#myGallery" role="button" data-slide="next">
                             <img src="https://ajency.github.io/Cibil-Dispute/img/forward-arrow.svg" alt="" width="15px" class="glyphicon glyphicon-chevron-right"></a>
                         </div>
                         
@@ -914,6 +914,7 @@
                 $(".carousel-inner").removeClass("hide");
                 $(".loader").addClass("hide");
                 $(".close").removeClass("hide");
+                $(".carousel-control").removeClass("hide");
             }, 1000);
         });
     </script>
