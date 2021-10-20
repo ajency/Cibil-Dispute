@@ -1696,8 +1696,8 @@ header {
     display: flex;
   }
   .column-type-2 .note-block img {
-    width: 24px;
-    height: 28px;
+    width: 34px;
+    height: 40px;
   }
   .column-type-2 .note-block .note-block-content {
     padding-left: 27px;
