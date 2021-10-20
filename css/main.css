@@ -2203,7 +2203,7 @@ header {
     text-decoration: none;
     background: transparent;
     width: 350px;
-    margin: 10px 30px;
+    margin: 10px 0px;
   }
 }
 
@@ -2212,6 +2212,7 @@ header {
   height: 155px;
   background: #ACACAC;
   display: inline-table;
+  margin: 0 30px;
 }
 
 .modal:before {
