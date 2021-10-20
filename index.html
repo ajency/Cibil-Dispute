@@ -915,7 +915,7 @@
                 $(".carousel-control").removeClass("hide");
             }, 1000);
         });
-        $('#showModal').on('hidden.bs.modal', function() {
+        $('#showModal, .carousel-control').on('hidden.bs.modal', function() {
             var $this = $(this).find('iframe'),
               tempSrc = $this.attr('src');
             $this.attr('src', "");
