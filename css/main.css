@@ -2217,6 +2217,7 @@ header {
 @media(max-width: 991px){
   .modal:before {
     height: 33%;
+    width: 100%;
   }
 }
 
