@@ -2299,3 +2299,6 @@ iframe, object, embed, video {
   border-radius: 4px;
   margin-top: 22px;
 }
+.loader-circle{
+  height: 400px;
+}

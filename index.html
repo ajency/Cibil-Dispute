@@ -433,12 +433,12 @@
         <div class="modal-dialog">
             <div class="modal-content non-radius non-border">
                 <div class="modal-header non-border">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> 
+                    <button type="button" class="close hide" data-dismiss="modal" aria-hidden="true"> 
                         <img src="https://ajency.github.io/Cibil-Dispute/img/close.svg" alt="" width="15px">
                     </button>
                 </div>
                 <div class="modal-body" >
-                    <div class="loader mb-md-60">
+                    <div class="loader loader-circle mb-md-60">
                         <div class="animating-loader">
                         </div>
                         <div class="loader-text para-bold-dark text-white text-uppercase">loading 
@@ -913,6 +913,7 @@
                 $(".thumbs").removeClass("hide");
                 $(".carousel-inner").removeClass("hide");
                 $(".loader").addClass("hide");
+                $(".close").removeClass("hide");
             }, 1000);
         });
     </script>
