@@ -2137,12 +2137,16 @@ header {
   box-sizing: border-box;
   border-radius: 6px;
 }
-
+.user-view--new_user{
+  border: 1px solid #F16E00;
+}
 .user-view .section-header {
   border-bottom: 1px solid #00A6CA;
   min-height: 123px;
 }
-
+.user-view--new_user .section-header {
+  border-bottom: 1px solid #F16E00;
+}
 .user-view .section-body .list-view {
   position: relative;
 }
