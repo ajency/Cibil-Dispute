@@ -1187,6 +1187,11 @@ header {
     background-color: #00a6ca;
     z-index: 1;
 }
+@media(max-width: 991px){
+  .main-page::after {
+    height: 238px;
+  }
+}
 .main-page.cat-listing::after {
   content: "";
   height: 307px;
