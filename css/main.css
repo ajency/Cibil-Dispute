@@ -2133,7 +2133,12 @@ header {
   position: absolute;
   right: -23px;
 }
-
+@media(max-width: 991px){
+  .modal-header .close {
+    right: 20px;
+    top: -15px;
+  }
+}
 .modal-header .close:focus {
   outline: 0;
 }
