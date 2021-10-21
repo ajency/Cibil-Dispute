@@ -600,6 +600,12 @@ a:focus {
   }
 }
 @media screen and (min-width: 992px) {
+    .pr-md-4{
+      padding-right: 4px;
+    }
+    .pl-md-4{
+      padding-right: 4px;
+    }
     .p-md-30 {
         padding: 30px;
     }
@@ -990,7 +996,7 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .flex-column-column {
+  .flex-column-sm {
     flex-direction: column;
   }
 }
