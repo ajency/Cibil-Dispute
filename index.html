@@ -451,19 +451,19 @@
                         <div class="carousel-inner border-radius-6 hide">
                             <div class="item active">
                                 <div class="item1">
-                                    <iframe src="https://www.youtube.com/embed/A85X0FXd3-I" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                                    <iframe class="iframe-vid" src="https://www.youtube.com/embed/A85X0FXd3-I?enablejsapi=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                                 </div>
                             </div>
 
                             <div class="item">
                                 <div class="item2">
-                                    <iframe src="https://www.youtube.com/embed/CeCnkMpg5N0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                                    <iframe class="iframe-vid" src="https://www.youtube.com/embed/CeCnkMpg5N0?enablejsapi=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                                 </div>
                             </div>
 
                             <div class="item">
                                 <div class="item3">
-                                    <iframe src="https://www.youtube.com/embed/4QlC9gH91gQ" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                                    <iframe class="iframe-vid" src="https://www.youtube.com/embed/4QlC9gH91gQ?enablejsapi=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                                 </div>
                             </div>
                         </div>
@@ -913,7 +913,14 @@
                 $(".carousel-control").removeClass("hide");
             }, 1000);
         });
-
+        $('#showModal').on('hidden.bs.modal', function() {
+            stopVideos();
+        });
+        function stopVideos() {
+          $('.iframe-vid').each(function() {
+          this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+          });
+        }
 
     </script>
 </body>
