@@ -888,7 +888,7 @@ a:focus {
 }
 
 @media (max-width: 991px){
-  .col-md-5, .col-md-6 {
+  .col-md-5, .col-md-6, .col-md-3  {
       width: 100%;
   }
 }
@@ -907,6 +907,11 @@ a:focus {
 @media (max-width: 991px) {
   .min-height-sm {
     min-height: 100% !important;
+  }
+}
+@media (max-width: 991px) {
+  .min-height-auto-sm {
+    min-height: auto !important;
   }
 }
 .border-line {
@@ -977,6 +982,17 @@ a:focus {
 
 .flex-column {
   flex-direction: column;
+}
+@media (max-width: 991px) {
+  .flex-row-sm {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 991px) {
+  .flex-column-column {
+    flex-direction: column;
+  }
 }
 
 .flex-wrap {
@@ -1930,6 +1946,11 @@ header {
   color: #2C2C2C;
   text-decoration: none;
 }
+.tertiary-button-width-auto {
+  width: auto;
+  margin: auto;
+}
+
 .solution-block .text-block .para-dark {
   opacity: 0.9;
 }
@@ -1982,8 +2003,48 @@ header {
     width: 0;
   }
 }
+@media (min-width: 992px) {
+  .panel .panel-body .block {
+    min-height: 300px;
+  }
+}
 
+@media (min-width: 1174px) {
+  .panel .panel-body .block {
+    min-height: 230px;
+  }
+}
 
+@media (max-width: 991px) {
+  .panel .panel-body .no-padding-left-sm {
+    padding-left: 0;
+  }
+}
+
+.panel .panel-body .column-type-2 .col-block {
+  height: 100%;
+  padding: 20px;
+}
+.panel .panel-body .column-type-2 .col-block .col-md-6 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.panel .panel-body .mt-md-52 {
+  margin-top: 52px;
+}
+@media (max-width: 991px) {
+  .panel .block-content .row.line:after {
+    left: 25px;
+  }
+}
+
+.panel .block-content .row-no-border:after {
+  content: '';
+  display: none;
+}
+.panel .block-content .border-line-bottom {
+  border-bottom: 1px solid #dde0ef !important;
+}
 .img-wrap {
   border-radius: 40px;
   width: 40px;
@@ -2002,6 +2063,22 @@ header {
   width: 18px;
   object-fit: contain;
   margin: 11px;
+}
+.img-wrap-position {
+  position: absolute;
+  left: 40px;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+@media (max-width: 991px) {
+  .img-wrap-position {
+    left: 0;
+    right: 0;
+    top: 68%;
+    margin: auto 0;
+  }
 }
 
 @media (max-width: 991px) {
