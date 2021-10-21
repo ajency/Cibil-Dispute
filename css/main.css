@@ -1274,6 +1274,11 @@ header {
 .lifecycle .step-one img {
   margin-right: 35px;
 }
+@media(min-width: 992px){
+  .lifecycle .step-one {
+    align-items: flex-start;
+  }
+}
 @media (max-width: 991px) {
   .lifecycle .step-one img {
     margin-right: 20px;
