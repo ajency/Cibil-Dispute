@@ -913,15 +913,18 @@
                 $(".carousel-control").removeClass("hide");
             }, 1000);
         });
-        $('#showModal').on('hidden.bs.modal', function() {
-            stopVideos();
-        });
+
         function stopVideos() {
           $('.iframe-vid').each(function() {
           this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
           });
         }
-
+        $('#showModal').on('hidden.bs.modal', function() {
+            stopVideos();
+        });
+        $('.carousel-control').on('click', function() {
+            stopVideos();
+        });
     </script>
 </body>
 
