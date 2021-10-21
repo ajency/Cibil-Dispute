@@ -445,6 +445,9 @@ a:focus {
   .mr-sm-10 {
     margin-right: 10px;
   }
+  .mr-sm-15 {
+    margin-right: 15px;
+  }
   .mr-sm-20 {
     margin-right: 20px;
   }
@@ -885,7 +888,7 @@ a:focus {
 }
 
 @media (max-width: 991px){
-  .col-md-5 {
+  .col-md-5, .col-md-6 {
       width: 100%;
   }
 }
@@ -2107,7 +2110,18 @@ header {
   left: 12px;
   right: 0;
 }
+@media (max-width: 991px) {
+  .user-view .section-header img {
+    width: 26px;
+    height: 26px;
+  }
+}
 
+@media (max-width: 991px) {
+  .user-view .section-header {
+    min-height: auto;
+  }
+}
 .modal {
   text-align: center;
 }
