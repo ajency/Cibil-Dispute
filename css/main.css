@@ -873,6 +873,12 @@ a:focus {
   .pt-sm-24 {
     padding-top: 26px;
   }
+  .pl-sm-6{
+    padding-left: 6px;
+  }
+  .pr-sm-6{
+    padding-right: 6px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -2090,7 +2096,7 @@ header {
 
 @media (max-width: 991px) {
   .img-wrap-position {
-    left: 0;
+    left: 5px;
     right: 0;
     top: 68%;
     margin: auto 0;
