@@ -52,6 +52,15 @@
   cursor: pointer;
   margin: 6px 0;
 }
+.breadcrumbs-listing--list a{
+  color: #707070;
+  text-decoration: none;
+}
+.breadcrumbs-listing--list a:focus, .breadcrumbs-listing--list a:hover {
+  color: #707070;
+  outline: 0;
+  text-decoration: none;
+}
 @media (min-width: 992px) {
   .breadcrumbs-listing--list {
     margin: 0;
@@ -1053,7 +1062,9 @@ a:focus {
 .link:hover {
   color: #2C2C2C;
 }
-
+.link:focus{
+  text-decoration: underline;
+}
 .justify-content-start {
   justify-content: flex-start;
 }
@@ -1835,6 +1846,7 @@ header {
 .header-section .go-back:hover, .header-section .go-back:focus {
   color: white;
   outline: 0;
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
