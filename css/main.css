@@ -1305,7 +1305,7 @@ header {
   }
 }
 .lifecycle .step-two {
-  padding: 14px 68px 12px;
+  padding: 14px 62px 12px;
 }
 @media(min-width: 992px){
   .lifecycle .step-two {
