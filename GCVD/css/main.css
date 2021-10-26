@@ -986,6 +986,9 @@ a:focus {
 .border-radius-6 {
   border-radius: 6px;
 }
+.border-radius-17 {
+  border-radius: 17px;
+}
 .overflow-hidden {
     overflow: hidden;
 }
@@ -1907,7 +1910,10 @@ header {
   width: 34px;
   height: 34px;
 }
-
+.red-badge-24 {
+  width: 24px;
+  height: 24px;
+}
 .white-badge {
   background: white;
   border-radius: 4px;
@@ -1931,9 +1937,11 @@ header {
   border-radius: 4px;
   padding: 4px 15px 3px;
 }
-
-.button-block .red-badge-34 {
-  border-radius: 4px 0px 0px 4px;
+.button-block button{
+  padding: 5px 20px 5px 5px;
+}
+.button-block .red-badge-24 {
+  border-radius: 24px;
 }
 
 .button-block .light-button {
