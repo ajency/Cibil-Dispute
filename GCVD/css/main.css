@@ -2138,7 +2138,7 @@ header {
   position: relative;
 }
 
-.panel .block-content .row:after {
+/*.panel .block-content .row:after {
   content: '';
   background: #DDE0EF;
   width: calc(100% - 10px);
@@ -2147,7 +2147,7 @@ header {
   top: 20px;
   z-index: 0;
 }
-
+*/
 @media (max-width: 991px) {
   .panel .block-content .row:after {
     width: 1px;
