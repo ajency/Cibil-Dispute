@@ -1212,6 +1212,12 @@ body {
   width: 58px;
   height: 58px;
 }
+@media(max-width: 991px){
+  .slick-slide .icon{
+    width: 40px;
+    height: 40px;
+  }
+}
 .slick-slide .content{
   position: absolute;
   left: 20px;
@@ -1226,6 +1232,12 @@ body {
   text-transform: uppercase;
   color: #FCD833;
 }
+@media(max-width: 991px){
+  .slick-slide .content .yellow{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 .slick-slide .content .white{
   font-family: Intro Bold;
   font-style: normal;
@@ -1234,6 +1246,12 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: white;
+}
+@media(max-width: 991px){
+  .slick-slide .content .white{
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 header {
     padding: 35px 0;
