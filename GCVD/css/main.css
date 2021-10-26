@@ -39,13 +39,13 @@
 }
 
 .breadcrumbs-listing--list {
-  font-family: Intro Book;
+  font-family: Intro Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #707070;
+  color: #2C2C2C;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   padding: 4px 10px 2px;
@@ -53,11 +53,11 @@
   margin: 6px 0;
 }
 .breadcrumbs-listing--list a{
-  color: #707070;
+  color: #2C2C2C;
   text-decoration: none;
 }
 .breadcrumbs-listing--list a:focus, .breadcrumbs-listing--list a:hover {
-  color: #707070;
+  color: #2C2C2C;
   outline: 0;
   text-decoration: none;
 }
@@ -67,8 +67,8 @@
   }
 }
 .breadcrumbs-listing--list.active {
-  font-family: Intro Regular;
-  color: #2C2C2C;
+  font-family: Intro Book;
+  color: #707070;
 }
 
 .page-title {
