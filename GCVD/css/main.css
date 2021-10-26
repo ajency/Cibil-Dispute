@@ -1990,6 +1990,9 @@ header {
   padding: 4px 15px 3px;
 }
 
+.button-block button{
+  padding: 5px 20px 5px 5px;
+}
 .button-block .red-badge-34 {
   border-radius: 4px 0px 0px 4px;
 }

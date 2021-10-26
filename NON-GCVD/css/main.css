@@ -986,6 +986,9 @@ a:focus {
 .border-radius-6 {
   border-radius: 6px;
 }
+.border-radius-17 {
+  border-radius: 6px;
+}
 .overflow-hidden {
     overflow: hidden;
 }
@@ -1958,7 +1961,7 @@ header {
   border-radius: 4px;
 }
 
-.red-badge-34 {
+.red-badge-24 {
   width: 34px;
   height: 34px;
 }
@@ -1987,6 +1990,9 @@ header {
   padding: 4px 15px 3px;
 }
 
+.button-block button{
+  padding: 5px 20px 5px 5px;
+}
 .button-block .red-badge-34 {
   border-radius: 4px 0px 0px 4px;
 }
