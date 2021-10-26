@@ -1181,7 +1181,12 @@ body {
     display: none;
 }
 .slick-slide {
-    margin: 0 30px;
+  margin: 0 30px;
+  position: relative;
+  text-decoration: none;
+}
+.slick-slide:hover, .slick-slide:focus{
+  text-decoration: none;
 }
 .slick-slide img {
   width: 100%;
@@ -1197,6 +1202,38 @@ body {
 }
 .slick-list {
     margin: 0 -10px;
+}
+.slick-slide .icon{
+  position: absolute;
+  top: 29%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 58px;
+  height: 58px;
+}
+.slick-slide .content{
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+.slick-slide .content .yellow{
+  font-family: Intro Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FCD833;
+}
+.slick-slide .content .white{
+  font-family: Intro Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: white;
 }
 header {
     padding: 35px 0;
