@@ -1962,8 +1962,9 @@ header {
 }
 
 .red-badge-24 {
-  width: 34px;
-  height: 34px;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
 }
 
 .white-badge {
