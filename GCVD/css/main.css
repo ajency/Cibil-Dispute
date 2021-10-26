@@ -39,13 +39,13 @@
 }
 
 .breadcrumbs-listing--list {
-  font-family: Intro Regular;
+  font-family: Intro Book;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2C2C2C;
+  color: #707070;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   padding: 4px 10px 2px;
@@ -53,11 +53,11 @@
   margin: 6px 0;
 }
 .breadcrumbs-listing--list a{
-  color: #2C2C2C;
+  color: #707070;
   text-decoration: none;
 }
 .breadcrumbs-listing--list a:focus, .breadcrumbs-listing--list a:hover {
-  color: #2C2C2C;
+  color: #707070;
   outline: 0;
   text-decoration: none;
 }
@@ -67,8 +67,8 @@
   }
 }
 .breadcrumbs-listing--list.active {
-  font-family: Intro Book;
-  color: #707070;
+  font-family: Intro Regular;
+  color: #2C2C2C;
 }
 
 .page-title {
@@ -985,9 +985,6 @@ a:focus {
 }
 .border-radius-6 {
   border-radius: 6px;
-}
-.border-radius-17 {
-  border-radius: 17px;
 }
 .overflow-hidden {
     overflow: hidden;
@@ -1910,10 +1907,7 @@ header {
   width: 34px;
   height: 34px;
 }
-.red-badge-24 {
-  width: 24px;
-  height: 24px;
-}
+
 .white-badge {
   background: white;
   border-radius: 4px;
@@ -1937,11 +1931,9 @@ header {
   border-radius: 4px;
   padding: 4px 15px 3px;
 }
-.button-block button{
-  padding: 5px 20px 5px 5px;
-}
-.button-block .red-badge-24 {
-  border-radius: 24px;
+
+.button-block .red-badge-34 {
+  border-radius: 4px 0px 0px 4px;
 }
 
 .button-block .light-button {
