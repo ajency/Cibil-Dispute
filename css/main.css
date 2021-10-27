@@ -39,13 +39,13 @@
 }
 
 .breadcrumbs-listing--list {
-  font-family: Intro Book;
+  font-family: Intro Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #707070;
+  color: #2C2C2C;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   padding: 4px 10px 2px;
@@ -67,8 +67,8 @@
   }
 }
 .breadcrumbs-listing--list.active {
-  font-family: Intro Regular;
-  color: #2C2C2C;
+  font-family: Intro Book;
+  color: #707070;
 }
 
 .page-title {
@@ -984,6 +984,9 @@ a:focus {
     border-radius: 4px;
 }
 .border-radius-6 {
+  border-radius: 6px;
+}
+.border-radius-17 {
   border-radius: 6px;
 }
 .overflow-hidden {
@@ -1958,9 +1961,10 @@ header {
   border-radius: 4px;
 }
 
-.red-badge-34 {
-  width: 34px;
-  height: 34px;
+.red-badge-24 {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
 }
 
 .white-badge {
@@ -1987,6 +1991,9 @@ header {
   padding: 4px 15px 3px;
 }
 
+.button-block button{
+  padding: 5px 20px 5px 5px;
+}
 .button-block .red-badge-34 {
   border-radius: 4px 0px 0px 4px;
 }
