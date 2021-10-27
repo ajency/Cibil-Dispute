@@ -2668,7 +2668,7 @@ iframe, object, embed, video {
   .status .number{
     padding: 10px 18px;
   }
-
+}
 @media (min-width: 992px){
   .sidebar{
     width: 315px;
