@@ -2680,17 +2680,3 @@ iframe, object, embed, video {
     margin-left: 315px;
   }
 }
-@media (min-width: 1200px){
-  .container {
-      width: 100%;
-      padding-right: 20px;
-      padding-left: 20px;
-  }
-}
-@media (min-width: 1580px){
-  .container {
-      width: 1200px;
-      padding-right: 10px;
-      padding-left: 10px;
-  }
-}
