@@ -71,6 +71,13 @@
   font-family: Intro Book;
   color: #707070;
 }
+.text-decoration-underline{
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
 
 .page-title {
   font-family: Intro Regular;
@@ -193,9 +200,6 @@
   letter-spacing: 0.02em;
   color: #2c2c2c;
 }
-.text-green {
-  color: #0ba11b;
-}
 .text-lightgrey {
   color: #5e5e5e;
 }
@@ -270,8 +274,8 @@ div {
 .text-orange {
   color: #f16e00;
 }
-.text-green {
-  color: #a9d161;
+.text-green{
+  color: #3BB012;
 }
 .bg-white {
   background-color: #fff;
@@ -285,8 +289,8 @@ div {
 .bg-orange {
   background-color: #f16e00;
 }
-.bg-green {
-  background-color: #a9d161;
+.bg-green{
+  background-color: #3BB012;
 }
 .fw-300 {
   font-weight: 300 !important;
@@ -1807,7 +1811,9 @@ header {
   height: 28px;
   top: -17px;
 }
-
+.column-type-1, .column-type-1:focus, .column-type-1:hover {
+  text-decoration: none;
+}
 @media (max-width: 991px) {
   .major-steps .last-step .numb {
     display: none;
@@ -2066,7 +2072,7 @@ header {
   border-radius: 4px;
 }
 .green-badge {
-  background: #a9d161;
+  background: #3BB012;
   border-radius: 4px;
 }
 .red-badge-24 {
