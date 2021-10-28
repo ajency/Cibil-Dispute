@@ -61,6 +61,14 @@
   outline: 0;
   text-decoration: none;
 }
+.text-decoration-underline{
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
+
 @media (min-width: 992px) {
   .breadcrumbs-listing--list {
     margin: 0;
@@ -1170,15 +1178,15 @@ body {
 }
 .slick-dots li {
     width: 30px;
-    height: 6px;
+    height: 10px;
     background: #dddddd;
-    border-radius: 4px;
+    border-radius: 5px;
     margin: 0 5px;
     cursor: pointer;
 }
 .slick-dots li.slick-active {
     background: #006685;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 .slick-dots button {
     display: none;
@@ -1291,7 +1299,7 @@ header {
     z-index: 2;
 }
 .video-slider .slick-dots {
-    margin-top: 34px;
+    margin-top: 20px;
 }
 @media (max-width: 991px) {
   .main-page .message .para-dark {
@@ -1332,7 +1340,7 @@ header {
 }
 @media (max-width: 991px) {
   .video-slider .slick-dots {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 991px) {
@@ -1776,7 +1784,9 @@ header {
     margin-right: 22px;
   }
 }
-
+.column-type-1, .column-type-1:focus, .column-type-1:hover {
+  text-decoration: none;
+}
 @media (max-width: 991px) {
   .column-type-1 .block-report {
     display: flex;
@@ -1935,10 +1945,32 @@ header {
   overflow: hidden;
   min-height: 180px;
 }
-
+.listing-box .arrow{
+  background: #00A6CA;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.listing-box .arrow img{
+  width: 8px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 @media (max-width: 991px) {
   .listing-box .min-height-50 {
     min-height: 100%;
+  }
+  .listing-box .arrow{
+    position: absolute;
+    right: 8px;
+    top: 15px;
   }
 }
 
@@ -2036,9 +2068,14 @@ header {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
-  width: 225px;
+  width: 315px;
+  white-space: nowrap;
 }
-
+@media(max-width: 991px){
+  .tertiary-button {
+    width: 300px;
+  }
+}
 .tertiary-button-filled {
   background: #F16E00;
   border-radius: 25px;

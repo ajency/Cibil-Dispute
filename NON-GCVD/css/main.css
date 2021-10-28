@@ -1291,7 +1291,7 @@ header {
     z-index: 2;
 }
 .video-slider .slick-dots {
-    margin-top: 34px;
+    margin-top: 20px;
 }
 @media (max-width: 991px) {
   .main-page .message .para-dark {
@@ -1927,6 +1927,7 @@ header {
   }
 }
 
+
 .listing-box {
   background: #F9F9F9;
   border: 1px solid #F9F9F9;
@@ -1935,10 +1936,32 @@ header {
   overflow: hidden;
   min-height: 180px;
 }
-
+.listing-box .arrow{
+  background: #00A6CA;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.listing-box .arrow img{
+  width: 8px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 @media (max-width: 991px) {
   .listing-box .min-height-50 {
     min-height: 100%;
+  }
+  .listing-box .arrow{
+    position: absolute;
+    right: 8px;
+    top: 15px;
   }
 }
 
