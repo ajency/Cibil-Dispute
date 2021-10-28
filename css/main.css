@@ -204,6 +204,15 @@
   letter-spacing: 0.02em;
   color: #2c2c2c;
 }
+.para-regular-light {
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #707070;
+}
 .para-bold-dark {
   font-family: Intro Bold;
   font-style: normal;
@@ -859,6 +868,9 @@ a:focus {
   .pb-md-60 {
     padding-bottom: 60px;
   }
+  .pl-md-0{
+    padding-left: 0px;
+  }
   .pl-md-10 {
     padding-left: 10px;
   }
@@ -876,6 +888,9 @@ a:focus {
   }
   .pl-md-60 {
     padding-left: 60px;
+  }
+  .pr-md-0{
+    padding-right: 0px;
   }
   .pr-md-10 {
     padding-right: 10px;
@@ -2163,9 +2178,14 @@ header {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
-  width: 225px;
+  width: 315px;
+  white-space: nowrap;
 }
-
+@media(max-width: 991px){
+  .tertiary-button {
+    width: 300px;
+  }
+}
 .tertiary-button-filled {
   background: #f16e00;
   border-radius: 25px;
