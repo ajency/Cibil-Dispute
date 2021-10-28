@@ -1357,7 +1357,11 @@ header {
     margin-left: 13px;
   }
 }
-
+@media (max-width: 991px) {
+  .block-report-content{
+    padding-right: 20px;
+  }
+}
 .max-width-530 {
     max-width: 530px;
 }
