@@ -70,6 +70,13 @@
   font-family: Intro Book;
   color: #707070;
 }
+.text-decoration-underline{
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
 
 .page-title {
     font-family: Intro Regular;
@@ -192,9 +199,6 @@
     letter-spacing: 0.02em;
     color: #2c2c2c;
 }
-.text-green {
-    color: #0ba11b;
-}
 .text-lightgrey {
   color: #5E5E5E;
 }
@@ -270,7 +274,7 @@ div {
   color: #F16E00;
 }
 .text-green{
-  color: #A9D161;
+  color: #3BB012;
 }
 .bg-white {
     background-color: #fff;
@@ -285,7 +289,7 @@ div {
   background-color: #F16E00;
 }
 .bg-green{
-  background-color: #A9D161;
+  background-color: #3BB012;
 }
 .fw-300 {
     font-weight: 300 !important;
@@ -1802,7 +1806,9 @@ header {
   height: 28px;
   top: -17px;
 }
-
+.column-type-1, .column-type-1:focus, .column-type-1:hover {
+  text-decoration: none;
+}
 @media (max-width: 991px) {
   .major-steps .last-step .numb {
     display: none;
@@ -2061,7 +2067,7 @@ header {
   border-radius: 4px;
 }
 .green-badge {
-  background: #A9D161;
+  background: #3BB012;
   border-radius: 4px;
 }
 .red-badge-24 {
