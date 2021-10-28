@@ -112,7 +112,20 @@
     letter-spacing: 0.02em;
   }
 }
-
+.page-title-h3{
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: #2C2C2C;
+}
+@media (max-width: 991px) {
+  .page-title-h3{
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
 .page-title-h4 {
   font-family: Intro Regular;
   font-style: normal;
@@ -2106,7 +2119,7 @@ header {
 }
 
 .button-block button {
-  padding: 5px 20px 5px 5px;
+  padding: 6px 20px 5px 5px;
 }
 .button-block .red-badge-34 {
   border-radius: 4px 0px 0px 4px;
