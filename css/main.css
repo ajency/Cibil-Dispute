@@ -1853,6 +1853,7 @@ header {
 @media (max-width: 991px) {
   .column-type-1 .block-report {
     display: flex;
+    align-items: start;
   }
   .column-type-1 .block-report img {
     width: 30px;
