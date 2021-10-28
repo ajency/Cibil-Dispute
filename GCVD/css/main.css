@@ -1967,6 +1967,7 @@ header {
   border-radius: 24px;
 }
 
+
 .white-badge {
   background: white;
   border-radius: 4px;
@@ -2521,4 +2522,64 @@ iframe, object, embed, video {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.icon-block {
+  border-radius: 100%;
+  background: #F9F9F9;
+  padding: 10px 8.5px;
+}
+
+.page-container {
+  position: relative;
+  background: #f6f7fc;
+}
+.status .status-btn {
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  width: 180px;
+}
+.status .status-btn:focus{
+  outline: 0;
+}
+.status .number{
+  padding: 18px 24px 12px 24px;
+  border-radius: 4px 0px 0px 4px;
+}
+.status .state{
+  padding: 20px 33px 16px 25px;
+}
+.score-range-title{
+  max-width: 500px;
+  width: 500px;
+  display: inline-table;
+}
+@media(max-width: 991px){
+  .score-range-title{
+    width: 100%;
+    max-width: 130px;
+  }
+  .score-range-title span{
+    font-family: Intro Regular;
+    display: block;
+  }
+  .status .status-btn {
+    width: 157px;
+  }
+  .status .state{
+    padding: 10px 15px 10px 20px;
+  }
+  .status .number{
+    padding: 10px 18px;
+  }
+}
+@media (min-width: 992px){
+  .sidebar{
+    width: 315px;
+    height: 100%;
+    background: #006685;
+    position: absolute;
+  }
+  .right-panel{
+    margin-left: 315px;
+  }
 }
