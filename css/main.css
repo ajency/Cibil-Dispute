@@ -53,11 +53,11 @@
   margin: 6px 0;
 }
 .breadcrumbs-listing--list a{
-  color: #707070;
+  color: #2C2C2C;
   text-decoration: none;
 }
 .breadcrumbs-listing--list a:focus, .breadcrumbs-listing--list a:hover {
-  color: #707070;
+  color: #2C2C2C;
   outline: 0;
   text-decoration: none;
 }
