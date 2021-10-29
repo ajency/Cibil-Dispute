@@ -2153,7 +2153,8 @@ header {
 }
 
 .button-block button {
-  padding: 6px 20px 5px 5px;
+  padding: 5px 20px 5px 5px;
+  width: 140px;
 }
 .button-block .red-badge-34 {
   border-radius: 4px 0px 0px 4px;
@@ -2744,6 +2745,7 @@ video {
   .score-range-title span {
     font-family: Intro Regular;
     display: block;
+    margin-bottom: 6px;
   }
   .status .status-btn {
     width: 157px;
@@ -2773,6 +2775,9 @@ video {
 @media screen and (max-width: 992px) {
   .white-header {
     border-bottom: 1px solid #dddddd;
+  }
+  .page-container .button-block button{
+    width: 135px;
   }
 }
 .white-header .go-back:hover {
