@@ -1212,7 +1212,20 @@ a:focus {
     padding-right: 20px;
   }
 }
-
+@media (min-width: 1200px){
+  .container-md {
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+}
+@media (min-width: 1580px){
+  .container-lg {
+      width: 1200px;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+}
 @media (max-width: 767px) {
   .light-text {
     font-family: Intro Book;
@@ -2688,6 +2701,13 @@ video {
   border: 1px solid #dddddd;
   box-sizing: border-box;
   width: 180px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+@media (min-width: 992px) and (max-width: 1260px){
+  .status .button-block {
+    flex-wrap: wrap;
+  }
 }
 .status .status-btn:focus {
   outline: 0;
@@ -2703,6 +2723,12 @@ video {
   max-width: 500px;
   width: 500px;
   display: inline-table;
+}
+@media(max-width: 1099px){
+  .score-range-title{
+    width: 100%;
+    max-width: 100%;
+  }
 }
 @media (max-width: 991px) {
   .score-range-title {
