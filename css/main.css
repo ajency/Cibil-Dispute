@@ -299,6 +299,9 @@ div {
 .text-green{
   color: #3BB012;
 }
+.text-light-green{
+  color: #A9D161;
+}
 .bg-white {
   background-color: #fff;
 }
@@ -313,6 +316,9 @@ div {
 }
 .bg-green{
   background-color: #3BB012;
+}
+.bg-light-green{
+  background-color: #A9D161;
 }
 .fw-300 {
   font-weight: 300 !important;
@@ -2770,7 +2776,7 @@ video {
   }
 }
 .white-header .go-back:hover {
-  color: #2c2c2c;
+  color: #707070;
 }
 .white-header .page-title-h1 {
   margin-bottom: 30px;
