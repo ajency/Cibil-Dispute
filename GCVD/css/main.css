@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: Intro Bold;
     src: url("../fonts/Intro-Bold.eot");
     src: local("☺"), url("../fonts/Intro-Bold.woff") format("woff"), url("../fonts/Intro-Bold.ttf") format("truetype"),
@@ -91,6 +91,55 @@
   .page-title {
     font-size: 24px;
     line-height: 30px;
+  }
+}
+.page-title-h1 {
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 50px;
+  color: #2c2c2c;
+}
+
+@media (max-width: 991px) {
+  .page-title-h1 {
+    font-family: Intro Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+  }
+}
+.page-title-h3{
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: #2C2C2C;
+}
+@media (max-width: 991px) {
+  .page-title-h3{
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+.page-title-h4 {
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2c2c2c;
+}
+
+@media (max-width: 991px) {
+  .page-title-h4 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
   }
 }
 .sub-page-title {
@@ -212,7 +261,7 @@ h4,
 h5,
 h6,
 div {
-    font-family: "IntroRegular";
+    font-family: Intro Regular;
 }
 .text-white {
     color: #fff;
@@ -247,6 +296,12 @@ div {
     color: #2C2C2C;
   }
 }
+.text-orange {
+  color: #f16e00;
+}
+.text-green{
+  color: #3BB012;
+}
 .bg-white {
     background-color: #fff;
 }
@@ -255,6 +310,12 @@ div {
 }
 .bg-3 {
     background-color: #e1eef3;
+}
+.bg-orange {
+  background-color: #f16e00;
+}
+.bg-green{
+  background-color: #3BB012;
 }
 .fw-300 {
     font-weight: 300 !important;
@@ -1033,6 +1094,11 @@ a:focus {
   flex-direction: column;
 }
 @media (max-width: 991px) {
+  .align-items-start-sm {
+    align-items: flex-start;
+  }
+}
+@media (max-width: 991px) {
   .flex-row-sm {
     flex-direction: row;
   }
@@ -1129,7 +1195,20 @@ a:focus {
     padding-right: 20px;
   }
 }
-
+@media (min-width: 1200px){
+  .container-md {
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+}
+@media (min-width: 1580px){
+  .container-lg {
+      width: 1200px;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+}
 @media (max-width: 767px) {
   .light-text {
     font-family: Intro Book;
@@ -1304,14 +1383,15 @@ header {
 }
 
 .main-page .inner-main-page {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 .video-slider .slick-dots {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 @media (max-width: 991px) {
-  .main-page .message .para-dark {
+  .main-page .message .para-dark,
+  .page-container .message .para-dark {
     margin-left: 5px;
   }
 }
@@ -2003,16 +2083,22 @@ header {
 }
 
 .red-badge {
-  background: #D74025;
+  background: #d74025;
   border-radius: 4px;
 }
-
+.orange-badge {
+  background: #f16e00;
+  border-radius: 4px;
+}
+.green-badge {
+  background: #3BB012;
+  border-radius: 4px;
+}
 .red-badge-24 {
   width: 24px;
   height: 24px;
   border-radius: 24px;
 }
-
 
 .white-badge {
   background: white;
