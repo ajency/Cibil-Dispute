@@ -2731,6 +2731,12 @@ video {
   width: 600px;
   display: inline-table;
 }
+@media(max-width: 1099px){
+  .score-range-title{
+    width: 530px;
+    max-width: 530px;
+  }
+}
 @media(max-width: 991px){
   .score-range-title{
     width: 100%;
