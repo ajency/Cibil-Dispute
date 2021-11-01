@@ -2727,8 +2727,8 @@ video {
   padding: 20px 33px 16px 25px;
 }
 .score-range-title {
-  max-width: 500px;
-  width: 500px;
+  max-width: 600px;
+  width: 600px;
   display: inline-table;
 }
 @media(max-width: 1099px){
@@ -2777,7 +2777,7 @@ video {
     border-bottom: 1px solid #dddddd;
   }
   .page-container .button-block button{
-    width: 135px;
+    width: 150px;
   }
 }
 .white-header .go-back:hover {
