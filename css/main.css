@@ -3018,3 +3018,14 @@ video {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 992px) {
+  .d-none{
+    display: none !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .d-md-block{
+    display: block !important;
+  }
+}
