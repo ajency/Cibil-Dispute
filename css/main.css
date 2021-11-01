@@ -1470,7 +1470,7 @@ header {
 }
 @media (max-width: 991px) {
   .block-report-content {
-    padding-right: 20px;
+    padding-right: 25px;
   }
 }
 .lifecycle {
