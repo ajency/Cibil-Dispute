@@ -2853,6 +2853,11 @@ video {
 .white-header .page-title-h1 {
   margin-bottom: 30px;
 }
+.info-tags .tag{
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+}
 @media (max-width: 991px) {
   .white-header .text-ellipsis-sm {
     width: auto;
