@@ -3106,7 +3106,11 @@ input.inactive {
   .nav-tabs .nav-item {
     margin-right: 0px;
     border-right: 1px solid #EDEDED;
-    padding: 9px 20px;
+    padding: 10px;
+    font-family: Intro Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
   }
 }
 
@@ -3124,6 +3128,7 @@ input.inactive {
   }
   .nav-tabs .nav-item:last-child{
     border-right: 0;
+    word-break: break-word;
   }
 }
 
