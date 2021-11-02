@@ -3312,17 +3312,19 @@ input.inactive {
 .account-section .column-type-1 {
   margin-bottom: 0;
 }
-.account-section .column-type-1::after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  max-height: 82px;
-  width: 1px;
-  background-color: #dddddd;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  right: 20px;
+@media screen and (min-width: 992px) {
+  .account-section .column-type-1::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    max-height: 82px;
+    width: 1px;
+    background-color: #dddddd;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+  }
 }
 @media screen and (max-width: 992px) {
   .account-section .column-2 {
