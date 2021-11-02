@@ -2976,9 +2976,7 @@ video {
 .go-back:hover {
   color: #2c2c2c;
 }
-.width-auto {
-  width: auto;
-}
+
 .field-group .field {
   border-right: 1px solid #dddddd;
   margin-right: 20px;
@@ -3488,7 +3486,11 @@ input.inactive {
 .width-auto {
   width: auto !important;
 }
-
+@media screen and (min-width: 992px) {
+  .width-auto-md {
+    width: auto !important;
+  }
+}
 .tertiary-button-2 {
   width: auto;
   height: 50px;
