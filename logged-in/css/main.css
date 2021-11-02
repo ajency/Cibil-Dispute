@@ -1523,13 +1523,7 @@ header {
     padding-right: 25px;
   }
 }
-.lifecycle {
-  @media (min-width: 992px) {
-    margin: 30px;
-    background: #f9f9f9;
-    border-radius: 6px;
-  }
-}
+
 .lifecycle .step {
   position: relative;
   z-index: 2;
@@ -1625,6 +1619,13 @@ header {
 @media (max-width: 991px) {
   .lifecycle .step--level-4 {
     flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .lifecycle .step {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 10px !important;
   }
 }
 @media (max-width: 991px) {
@@ -2363,6 +2364,11 @@ header {
 .panel-group .panel-heading + .panel-collapse > .list-group,
 .panel-group .panel-heading + .panel-collapse > .panel-body {
   border: 0;
+}
+@media (max-width: 400px) {
+  .panel .block-content {
+    padding-left: 0 !important;
+  }
 }
 @media (max-width: 991px) {
   .panel .block-content {
