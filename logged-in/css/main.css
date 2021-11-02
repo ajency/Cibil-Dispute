@@ -3598,6 +3598,14 @@ input[type="checkbox"]:checked::before {
 input[type="checkbox"]:focus {
   outline: 0;
 }
-.check input[type="checkbox"] {
-  width: 20px;
+@media(max-width: 991px){
+  .check input[type="checkbox"] {
+    width: 20px;
+  }
+}
+@media(min-width: 991px){
+  .content-block input[type="checkbox"]{
+    top: 4px;
+    position: relative;
+  }
 }
