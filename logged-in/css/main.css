@@ -3403,6 +3403,9 @@ input.inactive {
 .icon-text-block-outer {
   padding: 30px;
 }
+.icon-text-block-outer  .mx-sm-auto{
+  
+}
 .icon-text-block-outer .icon-text {
   display: flex;
   align-items: flex-start;
@@ -3453,4 +3456,7 @@ input.inactive {
  .mt-40{
    margin-top: 40px;
  }
+}
+.mx-sm-auto{
+  margin: auto;
 }
