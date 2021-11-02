@@ -142,15 +142,15 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <nav class="mt-md-40 mt-sm-30 mb-sm-20 pl-md-20 pr-md-20 pl-sm-20 pr-sm-20">
+                                    <nav class="mt-md-40 mt-sm-30 mb-sm-20 pl-md-20 pr-md-20">
                                         <div class="nav nav-tabs bg-f9" id="nav-tab" role="tablist">
-                                            <a class="nav-item nav-link active para-bold-dark text-uppercase text-decoration-none" id="nav-account-tab" data-toggle="tab" href="#nav-account" role="tab" aria-controls="nav-account" aria-selected="true">ACCOUNT DETAILS</a>
+                                            <a class="nav-item nav-link active in para-bold-dark text-uppercase text-decoration-none" id="nav-account-tab" data-toggle="tab" href="#nav-account" role="tab" aria-controls="nav-account" aria-selected="true">ACCOUNT DETAILS</a>
                                             <a class="nav-item nav-link para-bold-dark text-uppercase text-decoration-none" id="nav-status-tab" data-toggle="tab" href="#nav-status" role="tab" aria-controls="nav-status" aria-selected="false">PAYMENT STATUS</a>
                                             <a class="nav-item nav-link para-bold-dark text-uppercase text-decoration-none" id="nav-other-tab" data-toggle="tab" href="#nav-other" role="tab" aria-controls="nav-other" aria-selected="false">Other information</a>
                                         </div>
                                     </nav>
                                     <div class="tab-content pl-md-20 pr-md-20 pl-sm-20 pr-sm-20" id="nav-tabContent">
-                                        <div class="tab-pane fade in active mt-md-30" id="account-home" role="tabpanel" aria-labelledby="nav-account-tab">
+                                        <div class="tab-pane fade in active mt-md-30" id="nav-account" role="tabpanel" aria-labelledby="nav-account-tab">
                                             <div class="field-block-row mb-md-30 d-flex flex-column-sm">
                                                 <div class="field-block-col mr-md-60 mb-sm-20">
                                                     <h5 class="para-regular-dark default mt-0 mb-0">Credit Limit</h5>
@@ -208,7 +208,7 @@
                                                 </div>
                                             </div>
                                             <div class="border-light mb-sm-20"></div>
-                                            <div class="tab-footer mt-md-30 mb-md-30">
+                                            <div class="tab-footer mt-md-30 mb-md-30 mb-sm-20">
                                                 <div class="footer-text d-flex">
                                                     <div class="footer-text-block para-dark mb-md-20 mb-sm-10">XXX: Not reported by banks / financial institution</div>
                                                     <div class="footer-text-block para-dark mb-sm-10 mb-md-20">SUB:Substandard</div>
@@ -243,15 +243,15 @@
                                                 </div>
                                             </div>
                                             <div class="border-light mb-sm-20"></div>
-                                            <div class="tab-footer mt-md-30 mb-md-30">
+                                            <div class="tab-footer mt-md-30 mb-md-30 mb-sm-20">
                                                 <div class="footer-text d-flex">
                                                     <div class="footer-text-block para-dark mb-sm-10">STD: Standard</div>
                                                     <div class="footer-text-block para-dark mb-sm-10">LSS:Loss</div>
                                                     <div class="footer-text-block para-dark mb-sm-10">SUB:Substandard</div>
                                                     <div class="footer-text-block para-dark mb-sm-10">DBT:Doubtful</div>
                                                     <div class="footer-text-block para-dark mb-sm-10">###: Number of days past due</div>
-                                                    <div class="footer-text-block para-dark">SMA:Special Mention account</div>
-                                                    <div class="footer-text-block para-dark">XXX: Not reported by banks / financial institution</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10">SMA:Special Mention account</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10">XXX: Not reported by banks / financial institution</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -283,7 +283,7 @@
                                                 </div>
                                             </div>
                                             <div class="border-light mb-sm-20"></div>
-                                            <div class="tab-footer mt-md-30 mb-md-30">
+                                            <div class="tab-footer mt-md-30 mb-md-30 mb-sm-20">
                                                 <div class="footer-text d-flex">
                                                     <div class="footer-text-block para-dark mb-md-20 mb-sm-10">XXX: Not reported by banks / financial institution</div>
                                                     <div class="footer-text-block para-dark  mb-md-20  mb-sm-10">SUB:Substandard</div>
@@ -369,7 +369,7 @@
                             <a href="javascript:void(0)" class="para-regular-dark text-black text-decoration-none d-flex justify-content-center mt-md-30 mb-md-30"><img src="img/dropdown-arrow-dark.svg" alt="" class="mr-md-10">Show Older Records</a>
                         </div>
                         <div class="m-visible">
-                            <a href="javascript:void(0)" class="para-regular-dark text-decoration-none d-flex justify-content-center mt-sm-20 mb-sm-20">Show All  Accounts<img src="img/dropdown-arrow-dark.svg" alt="" class="ml-sm-10"></a>
+                            <a href="javascript:void(0)" class="para-regular-dark text-dark link d-flex justify-content-center mt-sm-20 mb-sm-20">Show All  Accounts<img src="img/dropdown-arrow-dark.svg" alt="" class="ml-sm-10"></a>
                         </div>
                         <div class="border-light-top"></div>
                     </div>
@@ -855,6 +855,10 @@
         $(".panel-icon").on("click", function(){
             $(".button-group-form a.reset").removeClass("light-button in-active-outline").addClass("tertiary-button tertiary-button-outline");
             $(".button-group-form a.continue").removeClass("light-button in-active-filled").addClass("tertiary-button tertiary-button-filled");
+        });
+        $(".nav-tabs .nav-item").on("click", function(){
+            $(".nav-tabs .nav-item").removeClass("active in");
+            $(this).addClass("active in");
         });
     </script>
 </body>
