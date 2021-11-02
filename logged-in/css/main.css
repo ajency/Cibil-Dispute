@@ -388,6 +388,12 @@ a:focus {
 .mb-0 {
   margin-bottom: 0;
 }
+.ml-0{
+  margin-left: 0;
+}
+.mr-0{
+  margin-right: 0;
+}
 .p-0 {
   padding: 0 !important;
 }
@@ -2863,6 +2869,7 @@ video {
 
 .white-header {
   background-color: #fff;
+  border-bottom: 1px solid #dddddd;
 }
 @media screen and (max-width: 992px) {
   .white-header {
@@ -3305,7 +3312,20 @@ input.inactive {
 .account-section .column-type-1 {
   margin-bottom: 0;
 }
-
+@media screen and (min-width: 992px) {
+  .account-section .column-type-1::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    max-height: 82px;
+    width: 1px;
+    background-color: #dddddd;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+  }
+}
 @media screen and (max-width: 992px) {
   .account-section .column-2 {
     margin: 20px 0;
