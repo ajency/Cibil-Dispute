@@ -3592,13 +3592,13 @@ input[type="checkbox"] {
   height: 16px;
   border: 1px solid #2c2c2c;
   border-radius: 1px;
-  transform: translateY(-0.075em);
+  transform: translateY(3.5px);
   pointer-events: auto;
 }
 
 @media (max-width: 991px) {
   input[type="checkbox"] {
-    transform: translateY(5px);
+    transform: translateY(4px);
   }
 }
 
@@ -3634,12 +3634,7 @@ input[type="checkbox"]:focus {
 @media (max-width: 991px) {
   .check input[type="checkbox"] {
     width: 17px;
-  }
-}
-@media (min-width: 991px) {
-  .content-block input[type="checkbox"] {
-    top: 4px;
-    position: relative;
+    display: table;
   }
 }
 
