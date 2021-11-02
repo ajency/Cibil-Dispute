@@ -3600,7 +3600,7 @@ input[type="checkbox"]:focus {
 }
 @media(max-width: 991px){
   .check input[type="checkbox"] {
-    width: 20px;
+    width: 17px;
   }
 }
 @media(min-width: 991px){
