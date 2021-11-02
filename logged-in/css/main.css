@@ -3186,9 +3186,19 @@ input.inactive {
     flex-basis: 100%;
   }
 }
+.tab-footer .footer-text .footer-text-block:nth-child(6) {
+  flex-basis: 100%;
+  order: 6;
+}
 
 @media (max-width: 991px) {
-  .tab-footer .footer-text .footer-text-block {
+  .tab-footer .footer-text .footer-text-block:nth-child(6) {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .tab-footer .footer-text .footer-text-block, .footer-text-block-grey  {
     color: #707070;
   }
 }
