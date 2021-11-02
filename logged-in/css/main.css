@@ -3422,6 +3422,11 @@ input.inactive {
 .icon-text-block-outer {
   padding: 30px;
 }
+@media screen and (max-width: 992px) {
+  .icon-text-block-outer {
+    padding: 20px;
+  }
+}
 .icon-text-block-outer .mx-sm-auto {
 }
 .icon-text-block-outer .icon-text {
