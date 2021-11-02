@@ -152,6 +152,7 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: #2C2C2C;
 }
 .title {
   font-family: Intro Bold;
@@ -391,6 +392,8 @@ a:focus {
 .ml-0 {
   margin-left: 0;
 }
+.mr-0{
+  margin-right: 0 !important;
 .mr-0 {
   margin-right: 0;
 }
@@ -2235,16 +2238,19 @@ header {
 .button-group-form .in-active-filled {
   background: #dddddd;
   text-transform: capitalize;
-  padding: 20px 40px;
+  padding: 17px 40px;
   line-height: 16px;
   text-align: center;
+  border: 0;
+  height: 50px;
 }
 .button-group-form .in-active-outline {
   line-height: 16px;
   text-align: center;
   color: #acacac;
   text-transform: capitalize;
-  padding: 19px 39px;
+  padding: 17px 40px;
+  height: 50px;
 }
 .button-group-form .in-active-filled:hover,
 .button-group-form .in-active-filled:focus {
@@ -2894,6 +2900,9 @@ video {
   .white-header .text-ellipsis-sm {
     width: auto;
   }
+  .white-header .page-title-h1 {
+    margin-bottom: 10px;
+  }
 }
 .general-instruction-block ul {
   padding-left: 20px;
@@ -3461,6 +3470,64 @@ input.inactive {
   .mx-sm-auto {
     margin: auto;
   }
+}
+
+label {
+  pointer-events: none;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #FFFFFF;
+  margin: 0 10px 0 0;
+  font: inherit;
+  color: #2C2C2C;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2C2C2C;
+  border-radius: 1px;
+  transform: translateY(-0.075em);
+  pointer-events: auto;
+}
+
+@media (max-width: 991px) {
+  input[type="checkbox"] {
+    transform: translateY(5px);
+  }
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2C2C2C;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 5px;
+  height: 10px;
+  transform: scale(0);
+  border: solid #FFFFFF;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  top: -3px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1) rotate(45deg);
+}
+
+input[type="checkbox"]:focus {
+  outline: 0;
+}
+.check input[type="checkbox"] {
+  width: 20px;
 }
 .width-auto {
   width: auto !important;
