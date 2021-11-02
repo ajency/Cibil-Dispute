@@ -3469,13 +3469,8 @@ input.inactive {
     margin: auto;
   }
 }
-<<<<<<< refs/remotes/origin/master
 .width-auto {
   width: auto !important;
-}
-
-.tertiary-button {
-  width: auto;
 }
 
 .tertiary-button-2 {
