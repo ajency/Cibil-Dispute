@@ -3642,3 +3642,82 @@ input[type="checkbox"]:focus {
     position: relative;
   }
 }
+
+.personal-info-form {
+  max-width: 559px;
+}
+
+.personal-info-form label {
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  /* Black */
+  color: #000000;
+  margin-bottom: 3px;
+}
+
+.personal-info-form input {
+  width: 100%;
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-column .form-group,
+.two-column input {
+  width: 100%;
+  max-width: 270px;
+}
+
+.form-icon-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-icon-text > div {
+  display: flex;
+  align-items: center;
+}
+
+.form-icon-text > div img {
+  margin-right: 10px;
+}
+
+.form-icon-text > div .form-text {
+  font-family: Intro Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.02em;
+  /* Accent Black */
+  color: #2c2c2c;
+}
+
+.form-buttons {
+  margin-top: 30px;
+}
+
+.form-buttons .reset {
+  border: 1px solid #f16e00;
+  color: #2c2c2c;
+}
+
+.form-buttons .continue {
+  background: #f16e00;
+  color: #2c2c2c;
+}
+
+@media screen and (min-width: 992px) {
+  .pb-md-0 {
+    padding-bottom: 0;
+  }
+}
