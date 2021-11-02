@@ -3457,6 +3457,9 @@ input.inactive {
    margin-top: 40px;
  }
 }
-.mx-sm-auto{
-  margin: auto;
+
+@media screen and (max-width: 992px) {
+  .mx-sm-auto{
+    margin: auto;
+  }
 }
