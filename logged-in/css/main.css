@@ -3434,13 +3434,13 @@ input.inactive {
   color: #2c2c2c;
   max-width: 823px;
 }
-.text-block {
+.icon-text-block-outer .text-block {
   border: 1px solid #dde0ef;
   box-sizing: border-box;
   border-radius: 6px;
   padding: 20px;
 }
-.text-block p {
+.icon-text-block-outer .text-block p {
   font-family: Intro Book;
   font-style: normal;
   font-weight: normal;
@@ -3524,6 +3524,9 @@ a:focus {
 @media screen and (min-width: 992px) {
   .button-at-end {
     justify-content: flex-end;
+  }
+  .mt-md--2{
+    margin-top: -20px;
   }
 }
 
