@@ -1523,6 +1523,12 @@ header {
     padding-right: 25px;
   }
 }
+@media (max-width: 400px) {
+  .lifecycle {
+    width: 290px;
+    margin: auto;
+  }
+}
 
 .lifecycle .step {
   position: relative;
@@ -2367,7 +2373,6 @@ header {
 }
 @media (max-width: 400px) {
   .panel .block-content {
-    padding-left: 0 !important;
   }
 }
 @media (max-width: 991px) {
