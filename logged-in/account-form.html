@@ -94,187 +94,293 @@
                     </div>
                 </div>
                 <div class="section bg-white border-light border-radius-6 mb-md-60 mb-sm-20">
-                    <div class="panel-group panel-form p-20 mb-0 m-hidden" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
-                                <div class="panel-heading field-group d-flex bg-f9" role="tab" id="headingOne">
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-20">Member Name</h5>
-                                        <p class="para-dark mb-0">HDFC Bank</p>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-10">Account Type</h5>
-                                        <select class="form-select para-dark" aria-label="Default select example">
-                                            <option selected class="para-dark">Consumer Loan</option>
-                                        </select>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-20">Account Number</h5>
-                                        <p class="para-dark mb-0">36115055594465</p>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-10">Ownership</h5>
-                                        <select class="form-select para-dark" aria-label="Default select example">
-                                            <option selected class="para-dark">Individual</option>
-                                        </select>
-                                    </div>
+                    <div class="panel-group panel-form p-20 mb-0" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="section-title m-visible mb-sm-20">
+                            Account Details
+                        </div>
+                        <div class="panel panel-default border-sm-0">
+                            <div class="panel-heading field-group d-flex bg-f9" role="tab" id="headingOne">
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-4">Member Name</h5>
+                                    <p class="para-dark mb-0">HDFC Bank</p>
                                 </div>
-                            </a>
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-4">Account Type</h5>
+                                    <select class="form-select para-dark" aria-label="Default select example">
+                                        <option selected class="para-dark">Consumer Loan</option>
+                                    </select>
+                                </div>
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-4">Account Number</h5>
+                                    <p class="para-dark mb-0">36115055594465</p>
+                                </div>
+                                <div class="field">
+                                    <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-4">Ownership</h5>
+                                    <select class="form-select para-dark" aria-label="Default select example">
+                                        <option selected class="para-dark">Individual</option>
+                                    </select>
+                                </div>
+                                <div class="border-light-dd mt-sm-20 mb-sm-20"></div>
+                                <a class="collapsed panel-icon" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+                                    <img src="img/arrow-down-black.svg" class="m-hidden">
+                                    <div class="para-regular-dark link m-visible">Show All Details<img src="img/dropdown-arrow-dark.svg" class="ml-sm-10"></div>
+                                </a>
+                            </div>
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body bg-f9 p-20 pt-0"> 
- 
+                                <div class="panel-body bg-f9 p-0"> 
+                                    <div class="checkbox-group d-flex flex-column-sm mt-md-20 pl-md-20 pr-md-20 pl-sm-20 pr-sm-20">
+                                        <div class="form-check d-flex mb-sm-10">
+                                            <input class="form-check-input" type="checkbox" value="" id="none">
+                                            <label class="form-check-label ml-md-10 ml-sm-10" for="none">
+                                                Account does not belong to me 
+                                            </label>
+                                        </div>
+                                        <div class="form-check d-flex">
+                                            <input class="form-check-input" type="checkbox" value="" id="multi">
+                                            <label class="form-check-label ml-md-10 ml-sm-10" for="multi">
+                                                Account reflects multiple times
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <nav class="mt-md-40 mt-sm-30 mb-sm-20 pl-md-20 pr-md-20">
+                                        <div class="nav nav-tabs bg-f9" id="nav-tab" role="tablist">
+                                            <a class="nav-item nav-link active in para-bold-dark text-uppercase text-decoration-none" id="nav-account-tab" data-toggle="tab" href="#nav-account" role="tab" aria-controls="nav-account" aria-selected="true">ACCOUNT DETAILS</a>
+                                            <a class="nav-item nav-link para-bold-dark text-uppercase text-decoration-none" id="nav-status-tab" data-toggle="tab" href="#nav-status" role="tab" aria-controls="nav-status" aria-selected="false">PAYMENT STATUS</a>
+                                            <a class="nav-item nav-link para-bold-dark text-uppercase text-decoration-none" id="nav-other-tab" data-toggle="tab" href="#nav-other" role="tab" aria-controls="nav-other" aria-selected="false">Other information</a>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-content pl-md-20 pr-md-20 pl-sm-20 pr-sm-20" id="nav-tabContent">
+                                        <div class="tab-pane fade in active mt-md-30" id="nav-account" role="tabpanel" aria-labelledby="nav-account-tab">
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark default mt-0 mb-0">Credit Limit</h5>
+                                                    <input type="text" name="credit" class="default para-dark" value="52,000">
+                                                </div>
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Current Balance</h5>
+                                                    <input type="text" name="balance" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Sanctioned amount</h5>
+                                                    <input type="text" name="sanctioned-amount" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                                <div class="field-block-col mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Amount Overdue</h5>
+                                                    <input type="text" name="overdue-amount" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Actual Payment Amount</h5>
+                                                    <input type="text" name="amount" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                                <div class="field-block-col mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Date Opened / Disbursed</h5>
+                                                    <input type="text" name="date" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Date Closed</h5>
+                                                    <input type="text" name="date" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                                <div class="field-block-col mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Date of Last Payment</h5>
+                                                    <input type="text" name="date" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Date Reported And Certified</h5>
+                                                    <input type="text" name="date" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                                <div class="field-block-col mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Suit - Filed / Willful Default</h5>
+                                                    <input type="text" name="suit" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Credit Facility Status</h5>
+                                                    <input type="text" name="credit-status" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="border-light mb-sm-20"></div>
+                                            <div class="tab-footer mt-md-30 mb-md-30 mb-sm-20">
+                                                <div class="footer-text d-flex">
+                                                    <div class="footer-text-block para-dark mb-md-20 mb-sm-10">XXX: Not reported by banks / financial institution</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10 mb-md-20">SUB:Substandard</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10">DBT:Doubtful</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10">###: Number of days past due</div>
+                                                    <div class="footer-text-block para-dark">SMA:Special Mention account</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade mt-md-30" id="nav-status" role="tabpanel" aria-labelledby="nav-status-tab">
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Payment End Date</h5>
+                                                    <input type="text" name="date" class="default para-dark" value="08/01/2021">
+                                                </div>
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Payment End Date</h5>
+                                                    <input type="text" name="date" class="inactive para-light" value="16/02/2021" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-10">Payment History</h5>
+                                                    <div class="table-block d-flex">
+                                                        <input type="text" name="sanctioned-amount" class="inactive para-dark border-light-ac" value="Feb 2020">
+                                                        <input type="text" name="sanctioned-amount" class="inactive para-dark border-light-ac" value="0">
+                                                    </div>
+                                                    <div class="table-block d-flex">
+                                                        <input type="text" name="sanctioned-amount" class="inactive para-dark mt-0" value="Mar 2020">
+                                                        <input type="text" name="sanctioned-amount" class="inactive para-dark mt-0" value="0">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-light mb-sm-20"></div>
+                                            <div class="tab-footer mt-md-30 mb-md-30 mb-sm-20">
+                                                <div class="footer-text d-flex">
+                                                    <div class="footer-text-block d-flex flex-column-sm">
+                                                        <div class="footer-text-block-grey para-dark mb-md-20 mb-sm-10">STD: Standard</div>
+                                                        <div class="footer-text-block-grey para-dark mb-md-20 mb-sm-10 ml-md-40">LSS:Loss</div>
+                                                    </div>
+                                                    <div class="footer-text-block para-dark mb-md-20 mb-sm-10">SUB:Substandard</div>
+                                                    <div class="footer-text-block para-dark mb-md-20 mb-sm-10">DBT:Doubtful</div>
+                                                    <div class="footer-text-block para-dark mb-md-20 mb-sm-10">###: Number of days past due</div>
+                                                    <div class="footer-text-block para-dark mb-md-20 mb-sm-10">SMA:Special Mention account</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10">XXX: Not reported by banks / financial institution</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade mt-md-30" id="nav-other" role="tabpanel" aria-labelledby="nav-other-tab">
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Value Of Collateral</h5>
+                                                    <input type="text" name="collateral-value" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                                <div class="field-block-col mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Written - off Amount (Principal)</h5>
+                                                    <input type="text" name="amount" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Type Of Collateral</h5>
+                                                    <input type="text" name="type" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                                <div class="field-block-col mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Settlement Amount</h5>
+                                                    <input type="text" name="amount" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="field-block-row mb-md-30 d-flex flex-column-sm">
+                                                <div class="field-block-col mr-md-60 mb-sm-20">
+                                                    <h5 class="para-regular-dark mt-0 mb-0">Written - off Amount (Total)</h5>
+                                                    <input type="text" name="total" class="inactive para-light" value="--" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="border-light mb-sm-20"></div>
+                                            <div class="tab-footer mt-md-30 mb-md-30 mb-sm-20">
+                                                <div class="footer-text d-flex">
+                                                    <div class="footer-text-block para-dark mb-md-20 mb-sm-10">XXX: Not reported by banks / financial institution</div>
+                                                    <div class="footer-text-block para-dark  mb-md-20  mb-sm-10">SUB:Substandard</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10">DBT:Doubtful</div>
+                                                    <div class="footer-text-block para-dark mb-sm-10">###: Number of days past due</div>
+                                                    <div class="footer-text-block para-dark">SMA:Special Mention account</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <div class="panel-heading field-group d-flex bg-f9" role="tab" id="headingTwo">
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-20">Member Name</h5>
-                                        <p class="para-dark mb-0">State Bank of Jammu & kashmir</p>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-10">Account Type</h5>
-                                        <select class="form-select para-dark" aria-label="Default select example">
-                                            <option selected class="para-dark">Home Loan</option>
-                                        </select>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-20">Account Number</h5>
-                                        <p class="para-dark mb-0">987658914528762</p>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-10">Ownership</h5>
-                                        <select class="form-select para-dark" aria-label="Default select example">
-                                            <option selected class="para-dark">Joint</option>
-                                        </select>
-                                    </div>
+                        <div class="panel panel-default border-sm-0">
+                            <div class="panel-heading field-group d-flex bg-f9" role="tab" id="headingTwo">
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-4">Member Name</h5>
+                                    <p class="para-dark mb-0">State Bank of Jammu & kashmir</p>
                                 </div>
-                            </a>
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-4">Account Type</h5>
+                                    <select class="form-select para-dark" aria-label="Default select example">
+                                        <option selected class="para-dark">Home Loan</option>
+                                    </select>
+                                </div>
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-4">Account Number</h5>
+                                    <p class="para-dark mb-0">987658914528762</p>
+                                </div>
+                                <div class="field">
+                                    <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-4">Ownership</h5>
+                                    <select class="form-select para-dark" aria-label="Default select example">
+                                        <option selected class="para-dark">Joint</option>
+                                    </select>
+                                </div>
+                                <div class="border-light-dd mt-sm-20 mb-sm-20"></div>
+                                <a class="collapsed panel-icon" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <img src="img/arrow-down-black.svg" class="m-hidden">
+                                    <div class="para-regular-dark link m-visible">Show All Details<img src="img/dropdown-arrow-dark.svg" class="ml-sm-10"></div>
+                                </a>
+                            </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body block-content bg-white p-20 pt-0">           
+                                <div class="panel-body block-content bg-white p-0">           
                    
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <div class="panel-heading field-group d-flex bg-f9" role="tab" id="headingThree">
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-20">Member Name</h5>
-                                        <p class="para-dark mb-0">HDFC Bank</p>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-10">Account Type</h5>
-                                        <select class="form-select para-dark" aria-label="Default select example">
-                                            <option selected class="para-dark">Credit Card</option>
-                                        </select>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-20">Account Number</h5>
-                                        <p class="para-dark mb-0">8266827878287</p>
-                                    </div>
-                                    <div class="field">
-                                        <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-10">Ownership</h5>
-                                        <select class="form-select para-dark" aria-label="Default select example">
-                                            <option selected class="para-dark">Individual</option>
-                                        </select>
-                                    </div>
+                        <div class="panel panel-default border-sm-0">
+                            <div class="panel-heading field-group d-flex bg-f9" role="tab" id="headingThree">
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-4">Member Name</h5>
+                                    <p class="para-dark mb-0">HDFC Bank</p>
                                 </div>
-                            </a>
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-4">Account Type</h5>
+                                    <select class="form-select para-dark" aria-label="Default select example">
+                                        <option selected class="para-dark">Credit Card</option>
+                                    </select>
+                                </div>
+                                <div class="field mb-sm-20">
+                                    <h5 class="para-regular-dark mt-0 mb-md-20 mb-sm-4">Account Number</h5>
+                                    <p class="para-dark mb-0">8266827878287</p>
+                                </div>
+                                <div class="field">
+                                    <h5 class="para-regular-dark mt-0 mb-md-10 mb-sm-4">Ownership</h5>
+                                    <select class="form-select para-dark" aria-label="Default select example">
+                                        <option selected class="para-dark">Individual</option>
+                                    </select>
+                                </div>
+                                <div class="border-light-dd mt-sm-20 mb-sm-20"></div>
+                                <a class="collapsed panel-icon" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <img src="img/arrow-down-black.svg" class="m-hidden">
+                                    <div class="para-regular-dark link m-visible">Show All Details<img src="img/dropdown-arrow-dark.svg" class="ml-sm-10"></div>
+                                </a>
+                            </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body block-content bg-white p-20 pt-0">           
+                                <div class="panel-body block-content bg-white p-0">           
                            
                                 </div>
                             </div>
                         </div>
-                        <a href="javascript:void(0)" class="para-regular-dark text-black text-decoration-none d-flex justify-content-center mt-md-30 mb-md-30"><img src="img/dropdown-arrow-dark.svg" alt="" class="mr-md-10">Show Older Records</a>
+                        <div class="m-hidden">
+                            <a href="javascript:void(0)" class="para-regular-dark text-black text-decoration-none d-flex justify-content-center mt-md-30 mb-md-30"><img src="img/dropdown-arrow-dark.svg" alt="" class="mr-md-10">Show Older Records</a>
+                        </div>
+                        <div class="m-visible">
+                            <a href="javascript:void(0)" class="para-regular-dark text-dark link d-flex justify-content-center mt-sm-20 mb-sm-20">Show All  Accounts<img src="img/dropdown-arrow-dark.svg" alt="" class="ml-sm-10"></a>
+                        </div>
                         <div class="border-light-top"></div>
                     </div>
-                    <div class="m-visible p-sm-20">
-                        <div class="section-title mb-md-10 mb-sm-10">
-                            Account Details
-                        </div>
-                        <div class="field-block bg-f9 p-sm-20 mb-sm-20">
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-0 mb-sm-4">Member Name</h5>
-                                <p class="para-dark mb-0">HDFC Bank</p>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Account Type</h5>
-                                <select class="form-select para-dark" aria-label="Default select example">
-                                    <option selected class="para-dark">Consumer Loan</option>
-                                </select>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Account Number</h5>
-                                <p class="para-dark mb-0">36115055594465</p>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Ownership</h5>
-                                <select class="form-select para-dark" aria-label="Default select example">
-                                    <option selected class="para-dark">Individual</option>
-                                </select>
-                            </div>
-                            <div class="border-light-top mb-sm-20"></div>
-                            <a href="javascript:void(0)" class="para-regular-dark link">Show All Details<img src="img/dropdown-arrow-dark.svg" alt="" class="ml-sm-10"></a>
-                        </div>
-                        <div class="field-block bg-f9 p-sm-20 mb-sm-20">
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-0 mb-sm-4">Member Name</h5>
-                                <p class="para-dark mb-0">State Bank Of Jammu & Kashmir</p>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Account Type</h5>
-                                <select class="form-select para-dark" aria-label="Default select example">
-                                    <option selected class="para-dark">Home Loan</option>
-                                </select>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Account Number</h5>
-                                <p class="para-dark mb-0">987658914528762</p>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Ownership</h5>
-                                <select class="form-select para-dark" aria-label="Default select example">
-                                    <option selected class="para-dark">Individual</option>
-                                </select>
-                            </div>
-                            <div class="border-light-top mb-sm-20"></div>
-                            <a href="javascript:void(0)" class="para-regular-dark link">Show All Details<img src="img/dropdown-arrow-dark.svg" alt="" class="ml-sm-10"></a>
-                        </div>
-                        <div class="field-block bg-f9 p-sm-20 mb-sm-20">
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-0 mb-sm-4">Member Name</h5>
-                                <p class="para-dark mb-0">HDFC Bank</p>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-0 mb-sm-4">Account Type</h5>
-                                <select class="form-select para-dark" aria-label="Default select example">
-                                    <option selected class="para-dark">Credit Card</option>
-                                </select>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Account Number</h5>
-                                <p class="para-dark mb-0">8266827878287</p>
-                            </div>
-                            <div class="field mb-sm-20">
-                                <h5 class="para-regular-dark mt-0 mb-sm-4">Ownership</h5>
-                                <select class="form-select para-dark" aria-label="Default select example">
-                                    <option selected class="para-dark">Individual</option>
-                                </select>
-                            </div>
-                            <div class="border-light-top mb-sm-20"></div>
-                            <a href="javascript:void(0)" class="para-regular-dark link">Show All Details<img src="img/dropdown-arrow-dark.svg" alt="" class="ml-sm-10"></a>
-                        </div>
-                        <a href="javascript:void(0)" class="para-regular-dark link d-flex justify-content-center ">Show All Accounts<img src="img/dropdown-arrow-dark.svg" alt="" class="ml-sm-10"></a>
-                        <div class="border-light-top mt-sm-20"></div>
-                    </div>
+
                     <div class="button-group button-group-form d-flex justify-content-end justify-content-center-sm  mt-md-10 mb-md-30 mr-md-30 mb-sm-20">
-                        <a class="light-button border-radius-25 para-regular-light in-active-outline text-decoration-none mr-md-30 mr-sm-30">
+                        <a class="light-button reset border-radius-25 para-regular-light text-capitalize in-active-outline text-decoration-none mr-md-30 mr-sm-30">
                             reset
                         </a>
-                        <a class="light-button-filled border-radius-25 para-regular-light text-decoration-none in-active-filled">
+                        <a class="light-button-filled continue text-capitalize border-radius-25 para-regular-light text-decoration-none in-active-filled">
                             continue
                         </a>
                     </div>
@@ -747,6 +853,16 @@
     <script src="https://assets.transunion.com/resources/js/lib/min/jquery.min.js"></script>
     <script src="https://assets.transunion.com/resources/js/lib/min/bootstrap.min.js"></script>
     <script src="https://assets.transunion.com/resources/js/lib/min/slick.min.js"></script>
+    <script type="text/javascript">
+        $(".panel-icon").on("click", function(){
+            $(".button-group-form a.reset").removeClass("light-button in-active-outline").addClass("tertiary-button tertiary-button-outline");
+            $(".button-group-form a.continue").removeClass("light-button in-active-filled").addClass("tertiary-button tertiary-button-filled");
+        });
+        $(".nav-tabs .nav-item").on("click", function(){
+            $(".nav-tabs .nav-item").removeClass("active in");
+            $(this).addClass("active in");
+        });
+    </script>
 </body>
 
 </html>
