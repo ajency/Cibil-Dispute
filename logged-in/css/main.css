@@ -783,7 +783,7 @@ a:focus {
     margin-top: 20px;
   }
   .mt-md-30 {
-    margin-top: 30px;
+    margin-top: 30px !important;
   }
   .mt-md-40 {
     margin-top: 40px;
@@ -3467,7 +3467,6 @@ input.inactive {
 }
 
 .tertiary-button {
-  width: auto;
 }
 
 .tertiary-button-2 {
