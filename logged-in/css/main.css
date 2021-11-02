@@ -2976,9 +2976,7 @@ video {
 .go-back:hover {
   color: #2c2c2c;
 }
-.width-auto {
-  width: auto;
-}
+
 .field-group .field {
   border-right: 1px solid #dddddd;
   margin-right: 20px;
@@ -3395,7 +3393,13 @@ input.inactive {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
+@media screen and (max-width: 992px) {
+  .success-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+}
 .success-section span {
   font-family: Intro bold;
   font-weight: bold;
@@ -3406,9 +3410,20 @@ input.inactive {
   width: 50px;
   margin-right: 30px;
 }
-
+@media screen and (max-width: 992px) {
+  .success-section img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+  }
+}
 .icon-text-block-outer {
   padding: 30px;
+}
+@media screen and (max-width: 992px) {
+  .icon-text-block-outer {
+    padding: 20px;
+  }
 }
 .icon-text-block-outer .mx-sm-auto {
 }
@@ -3416,7 +3431,6 @@ input.inactive {
   display: flex;
   align-items: flex-start;
   padding: 20px;
-
   border: 1px solid #dde0ef;
   box-sizing: border-box;
   border-radius: 6px;
@@ -3472,7 +3486,11 @@ input.inactive {
 .width-auto {
   width: auto !important;
 }
-
+@media screen and (min-width: 992px) {
+  .width-auto-md {
+    width: auto !important;
+  }
+}
 .tertiary-button-2 {
   width: auto;
   height: 50px;
@@ -3606,7 +3624,7 @@ input[type="checkbox"]:focus {
 }
 @media (max-width: 991px) {
   .check input[type="checkbox"] {
-    width: 20px;
+    width: 17px;
   }
 }
 @media (min-width: 991px) {
