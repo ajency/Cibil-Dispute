@@ -452,7 +452,15 @@ a:focus {
     padding: 60px;
   }
 }
+@media screen and (max-width: 992px) {
+  .mt-30 {
+    margin-top: 30px;
+  }
 
+  .mt-20 {
+    margin-top: 20px;
+  }
+}
 @media screen and (max-width: 991px) and (min-width: 992px) {
   .my-sm-60 {
     margin-top: 60px;
@@ -3228,10 +3236,6 @@ input.inactive {
   }
 }
 
-.mt-20 {
-  margin-top: 20px;
-}
-
 @media screen and (max-width: 992px) {
   .delete-entry-page .info-tags {
     flex-direction: column;
@@ -3275,12 +3279,6 @@ input.inactive {
   .px-40 {
     padding-left: 40px !important;
     padding-right: 40px !important;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .mt-30 {
-    margin-top: 30px;
   }
 }
 
