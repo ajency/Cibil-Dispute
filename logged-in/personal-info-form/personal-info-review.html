@@ -4,22 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Personal info name edited</title>
+    <title>Personal info Form Section</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
-    <link type="image/x-icon" href="//assets.transunion.com/resources/img/ico/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="https:///assets.transunion.com/resources/img/ico/favicon.ico" rel="shortcut icon">
     <link rel="stylesheet" href="https://assets.transunion.com/resources/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="https://assets.transunion.com/resources/css/tu-main.css">
-    <link rel="stylesheet" href="https://assets.transunion.com/resources/css/lib/bootstrap.min.css">
-    <link rel="stylesheet" href="https://assets.transunion.com/resources/css/tu-main.css">
-    <link rel="stylesheet" href="/cibil-dispute/vendor/slick/slick.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../vendor/slick/slick.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
 <body>
     <header>
         <div class="container">
-            <img src="img/logo.svg" alt="" width="99px">
+            <img src="../img/logo.svg" alt="" width="99px">
         </div>
     </header>
     <div class="page-container delete-entry-page">
@@ -29,22 +27,20 @@
                     <div class="header-section d-flex align-items-center justify-content-between">
                         <div class="breadcrumbs pt-md-40 pt-sm-30 pb-md-30 pb-sm-30 pb-sm-24 pt-sm-24">
                             <ul class="breadcrumbs-listing flex-wrap-sm">
-                                <li class="breadcrumbs-listing--list bg-f9 para-regular-dark f-14">Dashboard Home</li>
-                                <img src="img/forward-arrow-dark.svg" class="f-arrow px-md-10 px-sm-10" alt="forward-arrow">
-                                <li class="breadcrumbs-listing--list bg-f9 para-regular-dark f-14">Dispute Center</li>
-                                <img src="img/forward-arrow-dark.svg" class="f-arrow px-md-10 px-sm-10" alt="forward-arrow">
-                                <li class="breadcrumbs-listing--list bg-f9 text-ellipsis-sm">Personal Information Form</li>
+                                <li class="breadcrumbs-listing--list bg-f9 para-regular-dark f-14"><a href="javascript:void(0)">Dashboard Home</a></li>
+                                <img src="../img/forward-arrow-dark.svg" class="f-arrow  px-md-10 px-sm-10" alt="forward-arrow">
+                                <li class="breadcrumbs-listing--list bg-f9 para-regular-dark f-14"><a href="../dispute-logged-in.html">Dispute Center</a></li>
+                                <img src="../img/forward-arrow-dark.svg" class="f-arrow  px-md-10 px-sm-10" alt="forward-arrow">
+                                <li class="breadcrumbs-listing--list bg-f9 text-ellipsis-sm">Success</li>
                             </ul>
                         </div>
                         <div class="d-block">
-                            <a href="javascript:void(0)" class="para-bold-dark link go-back text-uppercase text-70"><img src="img/forward-arrow-dark.svg" class="f-arrow f-arrow-rotate-180  px-md-10 px-sm-10" alt="forward-arrow">Go Back</a>
+                            <a href="../dispute-logged-in.html" class="para-bold-dark link go-back text-uppercase text-70"><img src="../img/forward-arrow-dark.svg" class="f-arrow-rotate-180 f-arrow px-md-10 px-sm-10" alt="forward-arrow">Go Back</a>
                         </div>
 
                     </div>
-                    <h1 class="page-title-h1 mb-md-20 mt-0">Personal Information Form</h1>
-                    <div class="para-regular-dark mb-md-20">
-                        Edit the inaccurate data and file a dispute
-                    </div>
+                    <h1 class="page-title-h1 mb-30 mb-md-20 mt-0">Review & Submit Dispute</h1>
+
                 </div>
             </div>
             <div class="container">
@@ -56,121 +52,186 @@
                         Reported Date: 21-02-2021
                     </div>
                 </div>
-                <div class="section bg-light-gold mt-md-30 mb-md-30 mb-sm-20 border-radius-8">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="w-100 border-radius-8  position-relative overflow-hidden d-flex align-items-start p-md-30 p-sm-20 pr-sm-10">
-                                <div class="para-regular-dark d-inline-block">
-                                    <img src="img/important-info.svg" alt="info" class="icon" height="50px" width="50px">
-                                </div>
-                                <div class="min-height-50 ml-md-30 ml-sm-20">
-                                    <div class="para-regular-dark text-denim mb-md-10 mb-sm-10">
-                                       Please be aware that CIBIL cannot change or update this information in this section directly.
-                                    </div>
-                                    <div class="para-dark text-denim">
-                                    This information in this section was reported to CIBIL by your bank(s) and credit institution(s). It is based on the data in their records. It will take ~30-45 days for the recent payments to reflect in your CIBIL report post payment date.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="section bg-white border-light border-radius-6 mb-md-30 mb-sm-20">
+
+                    <div class="row p-md-40 pt-md-30 pb-md-30 p-sm-20">
+                        <p class="para-regular-dark mb-md-10 mb-sm-10">
+                            Have you completed your dispute?
+                        </p>
+                        <p class="para-dark mb-0">Here is the list of items you are disputing so far. Once it’s complete, click on submit dispute If you want to add another item, you can do that below. </p>
                     </div>
                 </div>
-                <div class="section bg-white border-light border-radius-6 mb-md-30 mb-sm-20">
-                    <div class="p-md-30 pb-md-0 p-sm-20 ">
-                        <div class="section-title mb-md-10 mb-sm-10">
-                            Personal details
-                        </div>
-                        <form action="" class="personal-info-form">
-                            <div class="form-group">
-                                <label for="">Name</label>
-                                <input type="text" placeholder="Ramesh Sharma Kumar Nathsrinivasan">
-                                <div class="form-icon-text">
-                                    <div>
-                                        <img src="img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
-
-                                        <div class="form-text">
-                                            Source: HDFC Bank
-                                        </div>
-                                    </div>
-                                  
-                                </div>
-                            </div>
-                       
-                        <div class="two-column">
-                            
-                                <div class="form-group">
-                                    <label for="">Date Of Birth</label>
-                                    <input type="text" placeholder="14/05/1996">
-                                    <div class="form-icon-text">
-                                        <div>
-                                            <img src="img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
-    
-                                            <div class="form-text">
-                                                Source: HDFC Bank
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Gender</label>
-                                    <input type="text" placeholder="Male">
-                                    <div class="form-icon-text">
-                                        <div>
-                                            <img src="img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
-    
-                                            <div class="form-text">
-                                                Source: HDFC Bank
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </form>
-                    </div>
+            
+                <div class="section bg-white border-light border-radius-6 mb-md-30 mb-sm-20 personal-info">
                     <div class="p-md-30 pb-md-20 p-sm-20">
-                        <div class="section-title mb-md-10 mb-sm-10">
-                            Identification Type
+                      
+                        <div class="section-title mb-md-20 mt-md-30">
+                            Personal information
                         </div>
-                        <form action="" class="personal-info-form">
-                         
-                       
-                        <div class="two-column">
+                   
+                        <div class="row pb-md-10 mt-sm-20 mt-md-20 ml-0 mr-0 d-flex account-section">
+                            <div class="col-md-6 mb-md-20 mb-sm-20 column-type-1">
+
+                                <div class="block-report-content min-height-50 ">
+                                    <div class="para-regular-dark mb-6 ">
+                                        Name
+                                    </div>
+                                    <div class="para-dark text-decoration-none">
+                                        Ramesh Sharma Kumar Nathsrinivasan
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 mb-md-20 mb-sm-20 column-type-1 last-col column-2">
+
+                                <div class="block-report-content min-height-50">
+                                    <div class="para-regular-dark mb-6 ">
+                                        Details Of Dispute
+                                    </div>
+                                    <div class="para-dark text-decoration-none">
+                                        Name to be changed to Ramesh Kumar Sharma
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <img src="../img/bin.svg" class="delete" alt="delete">
+                        </div>
+                        <div class="border-line mt-30 mt-md-30">
                             
-                                <div class="form-group">
-                                    <label for="">PAN Card (Income Tax ID)</label>
-                                    <input type="text" placeholder="BIMRI4012P">
-                                    <div class="form-icon-text">
-                                        <div>
-                                            <img src="img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
-    
-                                            <div class="form-text">
-                                                Source: HDFC Bank
-                                            </div>
+                        </div>
+                        <div class="section-title mb-20 mt-30 mt-md-30">
+                            Add another item to your dispute
+                        </div>
+                        <p class="para-dark mb-20">What do you wish to dispute? Don’t worry if you have more than one item you would like to dispute. <br class="d-none d-md-block">
+                            Simply pick one item now, and add more later.</p>
+                        <div class="row column-grid-section">
+                            <a href="javascript:void(0)" class="col-md-4 mb-md-20 text-decoration-none mb-sm-20 column-type-1">
+                                <div class="border-radius-4 listing-box block-report p-20 pt-md-35 pr-sm-40 min-height-sm">
+                                    <div class="listing-box--border border-top-thick"></div>
+                                    <div class="d-flex align-items-start align-items-md-center justify-content-between">
+                                        <img src="../img/AccountSection.svg" alt="" class="" height="36px" width="40px">
+                                        <div class="arrow mhide">
+                                            <img src="../img/grey-arrow.svg" alt="" class="" height="36px" width="40px">
+                                        </div>
+                                    </div>
+                                    <div class="block-report-content min-height-50 mt-md-20 pl-sm-20  pr-sm-20">
+                                        <div class="para-regular-dark text-decoration-underline mb-6">
+                                            Account Section
+                                        </div>
+                                        <div class="para-dark text-decoration-none">
+                                            Bank account no, type, etc...
                                         </div>
                                     </div>
                                 </div>
-                               
+                            </a>
+                            <a href="../category-logged-in.html" class="col-md-4 mb-md-20 text-decoration-none mb-sm-20 column-type-1">
+                                <div class="border-radius-4 listing-box block-report p-20 pt-md-35 pr-sm-40 min-height-sm">
+                                    <div class="listing-box--border border-top-thick"></div>
+                                    <div class="d-flex align-items-start align-items-md-center justify-content-between">
+                                        <img src="../img/PersonalInformation.svg" alt="" class="" height="36px" width="40px">
+                                        <div class="arrow mhide">
+                                            <img src="../img/grey-arrow.svg" alt="" class="" height="36px" width="40px">
+                                        </div>
+                                    </div>
+                                    <div class="block-report-content min-height-50 mt-md-20 pl-sm-20  pr-sm-20">
+                                        <div class="para-regular-dark text-decoration-underline mb-6">
+                                            Personal Information
+                                        </div>
+                                        <div class="para-dark text-decoration-none">
+                                            Name, address, dob etc....
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0)" class="col-md-4 mb-md-20 text-decoration-none mb-sm-20 column-type-1">
+                                <div class="border-radius-4 listing-box block-report p-20 pt-md-35 pr-sm-40 min-height-sm">
+                                    <div class="listing-box--border border-top-thick"></div>
+                                    <div class="d-flex align-items-start align-items-md-center justify-content-between">
+                                        <img src="../img/EmploymentInformation.svg" alt="" class="" height="36px" width="40px">
+                                        <div class="arrow mhide">
+                                            <img src="../img/grey-arrow.svg" alt="" class="" height="36px" width="40px">
+                                        </div>
+                                    </div>
+                                    <div class="block-report-content min-height-50 mt-md-20 pl-sm-20  pr-sm-20">
+                                        <div class="para-regular-dark text-decoration-underline mb-6">
+                                            Employment Information
+                                        </div>
+                                        <div class="para-dark text-decoration-none">
+                                            Account type, income, occupation etc....
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0)" class="col-md-4 mb-md-20 text-decoration-none mb-sm-20 column-type-1">
+                                <div class="border-radius-4 listing-box block-report p-20 pt-md-35 pr-sm-40 min-height-sm">
+                                    <div class="listing-box--border border-top-thick"></div>
+                                    <div class="d-flex align-items-start align-items-md-center justify-content-between">
+                                        <img src="../img/CreditApplicationHistory.svg" alt="" class="" height="36px" width="40px">
+                                        <div class="arrow mhide">
+                                            <img src="../img/grey-arrow.svg" alt="" class="" height="36px" width="40px">
+                                        </div>
+                                    </div>
+                                     <div class="block-report-content min-height-50 mt-md-20 pl-sm-20  pr-sm-20">
+                                        <div class="para-regular-dark text-decoration-underline mb-6">
+                                            Credit Application History
+                                        </div>
+                                        <div class="para-dark text-decoration-none">
+                                            Loan application, credit card application, other...
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0)" class="col-md-4 mb-md-20 text-decoration-none mb-sm-20 column-type-1">
+                                <div class="border-radius-4 listing-box block-report p-20 pt-md-35 pr-sm-40 min-height-sm">
+                                    <div class="listing-box--border border-top-thick"></div>
+                                    <div class="d-flex align-items-start align-items-md-center justify-content-between">
+                                        <img src="../img/ContactInformation.svg" alt="" class="" height="36px" width="40px">
+                                        <div class="arrow mhide">
+                                            <img src="../img/grey-arrow.svg" alt="" class="" height="36px" width="40px">
+                                        </div>
+                                    </div>
+                                    <div class="block-report-content min-height-50 mt-md-20 pl-sm-20  pr-sm-20">
+                                        <div class="para-regular-dark text-decoration-underline mb-6">
+                                            Contact Information
+                                        </div>
+                                        <div class="para-dark text-decoration-none">
+                                            Mobile number, address, other
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0)" class="col-md-4 mb-md-20 text-decoration-none column-type-1">
+                                <div class="border-radius-4 listing-box block-report p-20 pt-md-35 pr-sm-40 min-height-sm">
+                                    <div class="listing-box--border border-top-thick"></div>
+                                    <div class="d-flex align-items-start align-items-md-center justify-content-between">
+                                        <img src="../img/OtherInformation.svg" alt="" class="" height="36px" width="40px">
+                                        <div class="arrow mhide">
+                                            <img src="../img/grey-arrow.svg" alt="" class="" height="36px" width="40px">
+                                        </div>
+                                    </div>
+                                    <div class="block-report-content min-height-50 mt-md-20 pl-sm-20 pr-sm-20">
+                                        <div class="para-regular-dark text-decoration-underline mb-6">
+                                            Other Information
+                                        </div>
+                                        <div class="para-dark text-decoration-none">
+                                            Bank account no, type, etc...
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </form>
-                    <div class="border-line">
+                       <div class="button-at-end ">
+                        <a href="javascript:void(0)" class="tertiary-button tertiary-button-width-auto tertiary-button-filled mr-md-30 mb-sm-20 mhide">Submit Dispute</a>
+                       </div>
                     </div>
-                    <div class="button-group button-group-form d-flex justify-content-end justify-content-center-sm  mt-md-30 mb-md-30 mr-md-30 mb-sm-20">
-                        <a class="light-button reset border-radius-25 para-regular-light text-capitalize in-active-outline text-decoration-none mr-md-30 mr-sm-30">
-                            reset
-                        </a>
-                        <a class="light-button-filled continue text-capitalize border-radius-25 para-regular-light text-decoration-none in-active-filled">
-                            continue
-                        </a>
-                    </div>
-                    </div>
-                 
+
                 </div>
                 <div class="button-at-end">
                     <a href="javascript:void(0)" class="tertiary-button tertiary-button-width-auto tertiary-button-filled mr-md-30 d-hide mb-sm-20 mt-0">Submit Dispute</a>
-                </div>
+                   </div>
             
             </div>
-         
         </div>
     </div>
     <div class="ls-row" id="footerSection">
