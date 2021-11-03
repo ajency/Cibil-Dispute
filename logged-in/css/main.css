@@ -3503,7 +3503,11 @@ input.inactive {
   align-items: center;
   justify-content: center;
 }
-
+@media screen and (max-width: 992px) {
+  .tertiary-button-2 {
+    white-space: normal;
+  }
+}
 .mr-10 {
   margin-right: 10px;
 }
