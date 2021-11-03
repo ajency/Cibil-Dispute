@@ -2094,7 +2094,7 @@ header {
 }
 .header-section .go-back:hover,
 .header-section .go-back:focus {
-  color: white;
+  color: #707070;
   outline: 0;
   text-decoration: underline;
 }
