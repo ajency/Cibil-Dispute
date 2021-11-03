@@ -3713,6 +3713,6 @@ input[type="checkbox"]:focus {
 @media (max-width: 991px){
   .success .panel .block-content{
     display: block;
-    padding: 0;
+    padding: 0 !important;
   }
 }
