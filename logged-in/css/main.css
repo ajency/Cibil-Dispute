@@ -3498,7 +3498,6 @@ input.inactive {
 .tertiary-button-2 {
   width: auto;
   height: 50px;
-  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3506,6 +3505,7 @@ input.inactive {
 @media screen and (max-width: 992px) {
   .tertiary-button-2 {
     white-space: normal;
+    padding: 0 20px;
   }
 }
 .mr-10 {
