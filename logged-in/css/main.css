@@ -3757,6 +3757,21 @@ input[type="checkbox"]:focus {
     height: 50px;
   }
 }
-.account-section.dispute-status .column-type-1::after{
-  max-height: 100%;
+
+@media (min-width: 992px) {
+  .status-block .column-type-4{
+    flex-basis: 32%;
+    border-right: 1px solid #DDDDDD;
+    margin-right: 20px;
+  }
+  .status-block .column-type-4:last-child{
+    flex-basis: 22%;
+    border-right: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 991px){
+  .column-type-4 .block-report-content {
+       padding-right: 0px; 
+  }
 }
