@@ -1922,8 +1922,10 @@ header {
 }
 @media (max-width: 991px) {
   .major-steps .last-step .numb {
-    display: none;
-  }
+    left: 0;
+    right: 0;
+    margin: auto; 
+ }
 }
 .major-steps .last-step .para-bold-dark {
   margin-bottom: 6px;
@@ -3714,5 +3716,11 @@ input[type="checkbox"]:focus {
 @media screen and (min-width: 992px) {
   .pb-md-0 {
     padding-bottom: 0;
+  }
+}
+@media (max-width: 991px){
+  .success .panel .block-content{
+    display: block;
+    padding: 0;
   }
 }
