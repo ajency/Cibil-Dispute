@@ -2224,6 +2224,7 @@ header {
   padding: 20px 40px;
   line-height: 16px;
   text-align: center;
+  pointer-events: none;
 }
 .button-group-form .in-active-outline {
   line-height: 16px;
@@ -2231,6 +2232,7 @@ header {
   color: #acacac;
   text-transform: capitalize;
   padding: 19px 39px;
+  pointer-events: none;
 }
 .button-group-form .in-active-filled:hover,
 .button-group-form .in-active-filled:focus {

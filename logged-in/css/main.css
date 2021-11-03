@@ -307,6 +307,9 @@ div {
 .text-light-green {
   color: #a9d161;
 }
+.text-red{
+  color: #D74025;
+}
 .bg-white {
   background-color: #fff;
 }
@@ -2251,6 +2254,7 @@ header {
   text-align: center;
   border: 0;
   height: 50px;
+  pointer-events: none;
 }
 .button-group-form .in-active-outline {
   line-height: 16px;
@@ -2259,6 +2263,7 @@ header {
   text-transform: capitalize;
   padding: 17px 40px;
   height: 50px;
+  pointer-events: none;
 }
 .button-group-form .in-active-filled:hover,
 .button-group-form .in-active-filled:focus {
@@ -3745,4 +3750,13 @@ input[type="checkbox"]:focus {
     display: block;
     padding: 0 !important;
   }
+}
+@media (min-width: 992px) {
+  .block-report-content .header{
+    width: 150px;
+    height: 50px;
+  }
+}
+.account-section.dispute-status .column-type-1::after{
+  max-height: 100%;
 }
