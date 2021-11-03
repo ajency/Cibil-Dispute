@@ -81,7 +81,7 @@
                         <form action="" class="personal-info-form">
                             <div class="form-group">
                                 <label for="">Name</label>
-                                <input type="text" placeholder="Ramesh Sharma Kumar Nathsrinivasan">
+                                <input type="text" value="Ramesh Sharma Kumar Nathsrinivasan">
                                 <div class="form-icon-text">
                                     <div>
                                         <img src="../img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
@@ -94,11 +94,11 @@
                                 </div>
                             </div>
                        
-                        <div class="two-column">
+                        <div class="two-column mt-md-30 mt-sm-20">
                             
-                                <div class="form-group">
+                                <div class="form-group mr-md-20 mb-sm-20">
                                     <label for="">Date Of Birth</label>
-                                    <input type="text" placeholder="14/05/1996">
+                                    <input type="text" value="14/05/1996">
                                     <div class="form-icon-text">
                                         <div>
                                             <img src="../img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
@@ -109,15 +109,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mb-0">
                                     <label for="">Gender</label>
-                                    <input type="text" placeholder="Male">
+                                    <input type="text" value="Male">
                                     <div class="form-icon-text">
                                         <div>
                                             <img src="../img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
     
                                             <div class="form-text">
-                                                Source: HDFC Bank
+                                                Source: --
                                             </div>
                                         </div>
                                     </div>
@@ -125,41 +125,42 @@
                         </div>
                     </form>
                     </div>
-                    <div class="p-md-30 pb-md-20 p-sm-20">
+                    <div class="p-md-30 pb-md-20 p-sm-20 pt-sm-10">
                         <div class="section-title mb-md-10 mb-sm-10">
                             Identification Type
                         </div>
                         <form action="" class="personal-info-form">
-                         
-                       
-                        <div class="two-column">
-                            
+                            <div class="two-column">
                                 <div class="form-group">
                                     <label for="">PAN Card (Income Tax ID)</label>
-                                    <input type="text" placeholder="BIMRI4012P">
-                                    <div class="form-icon-text">
+                                    <div class="d-flex align-items-center flex-column-sm  align-items-start-sm">
+                                        <input type="text" value="BIMRI4012P">
+                                        <div class="dates d-flex flex-column flex-column-sm ml-md-20">
+                                            <span class="para-regular-light mb-md-6 mt-sm-10 text-dark-black-sm">Issue Date : --</span>
+                                            <span class="para-regular-light mt-sm-10 text-dark-black-sm">Expiry Date : --</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-icon-text mb-sm-10">
                                         <div>
                                             <img src="../img/info-grey.svg" alt="info" class="icon" height="20px" width="20px">
-    
+
                                             <div class="form-text">
                                                 Source: HDFC Bank
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                               
+                            </div>
+                        </form>
+                        <div class="border-line"></div>
+                        <div class="button-group button-group-form d-flex justify-content-end justify-content-center-sm mt-md-30 mb-md-10 mr-md-30 mt-sm-20">
+                            <a class="light-button reset border-radius-25 para-regular-light text-capitalize in-active-outline text-decoration-none mr-md-30 mr-sm-30">
+                                reset
+                            </a>
+                            <a class="light-button-filled continue text-capitalize border-radius-25 para-regular-light text-decoration-none in-active-filled">
+                                continue
+                            </a>
                         </div>
-                    </form>
-                    <div class="border-line">
-                    </div>
-                    <div class="button-group button-group-form d-flex justify-content-end justify-content-center-sm  mt-md-10 mb-md-30 mr-md-30 mb-sm-20 form-buttons">
-                        <a class="reset border-radius-25 para-regular-light text-capitalize in-active-outline text-decoration-none mr-md-30 mr-sm-30">
-                            reset
-                        </a>
-                        <a class="continue text-capitalize border-radius-25 para-regular-light text-decoration-none in-active-filled">
-                            continue
-                        </a>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -433,21 +434,17 @@
         </div>
     </div>
 
-    <link rel="script" href="/cibil-dispute/vendor/slick/slick.min.js">  
-    <link rel="script" href="/cibil-dispute/css/main.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css"> 
     <script src="https://assets.transunion.com/resources/js/lib/min/jquery.min.js"></script>
     <script src="https://assets.transunion.com/resources/js/lib/min/bootstrap.min.js"></script>
     <script src="https://assets.transunion.com/resources/js/lib/min/slick.min.js"></script>
-    <script>
-        $('.video-slider').slick({
-            arrows: false,
-            dots: true,
-            center: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
-            spacing: 30
+    <script type="text/javascript">
+        $(function(){
+            $('input').on('keyup', function(){
+                $(".button-group-form a.reset").removeClass("light-button in-active-outline").addClass("tertiary-button tertiary-button-outline");
+                $(".button-group-form a.continue").removeClass("light-button in-active-filled").addClass("tertiary-button tertiary-button-filled");
+            });
+      });
 
-        });
     </script>
 </body>
 
