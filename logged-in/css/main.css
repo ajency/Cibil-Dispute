@@ -3662,13 +3662,24 @@ input[type="checkbox"]:focus {
   display: flex;
   justify-content: space-between;
 }
-
-.two-column .form-group,
+@media(max-width: 991px){
+  .two-column {
+    flex-direction: column;
+  }
+}
+.two-column .form-group{
+  width: 100%;
+}
 .two-column input {
   width: 100%;
   max-width: 270px;
 }
-
+@media(max-width: 991px){
+  .two-column input {
+    width: 100%;
+    max-width: 100%;
+  }
+}
 .form-icon-text {
   display: flex;
   justify-content: space-between;
