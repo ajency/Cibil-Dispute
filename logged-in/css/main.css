@@ -3656,6 +3656,8 @@ input[type="checkbox"]:focus {
 
 .personal-info-form input {
   width: 100%;
+  border: 1px solid #ACACAC;
+  background-color: #FFF;
 }
 
 .two-column {
@@ -3685,10 +3687,22 @@ input[type="checkbox"]:focus {
   justify-content: space-between;
   margin-top: 10px;
 }
-
+@media(max-width: 991px){
+  .form-icon-text {
+    flex-direction: column;
+  }
+  .icon-text1{
+    order: 2;
+    display: flex;
+  }
+  .icon-text2{
+    order: 1;
+    display: flex;
+  }
+}
 .form-icon-text > div {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .form-icon-text > div img {
