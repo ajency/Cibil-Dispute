@@ -3786,6 +3786,10 @@ input[type="checkbox"]:focus {
   #disputeStatusDetail .modal-header .close {
     right: -16px;
   }
+  #disputeStatusDetail .slick-list{
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 @media (max-width: 991px){
   #disputeStatusDetail.modal:before {
