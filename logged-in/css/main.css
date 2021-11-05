@@ -3775,3 +3775,26 @@ input[type="checkbox"]:focus {
        padding-right: 0px; 
   }
 }
+@media (min-width: 992px){
+  .border-left-md{
+    border-left: 1px solid #DDDDDD;
+    padding-left: 20px;
+  }
+  #disputeStatusDetail .modal-dialog {
+      width: 75%;
+  }
+  #disputeStatusDetail .modal-header .close {
+    right: -16px;
+  }
+}
+@media (max-width: 991px){
+  #disputeStatusDetail.modal:before {
+    height: 0%;
+    width: 100%;
+  }
+  #disputeStatusDetail .modal-header .close {
+    right: 28px;
+    top: -2px;
+    z-index: 1;
+  }
+}
