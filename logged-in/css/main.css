@@ -3383,6 +3383,9 @@ input.inactive {
   .d-none {
     display: none !important;
   }
+  .d-sm-block {
+    display: block !important;
+  }
 }
 @media screen and (min-width: 992px) {
   .d-md-block {
