@@ -3037,7 +3037,7 @@ video {
   -webkit-appearance: none;
   appearance: none;
   background: url(../img/dropdown-arrow.svg) no-repeat right #fff;
-  background-position-x: 154px;
+  background-position-x: 95%;
 }
 
 @media (max-width: 991px) {
