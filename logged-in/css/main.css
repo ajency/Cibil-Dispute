@@ -3833,3 +3833,8 @@ input[type="checkbox"]:focus {
   -moz-filter: blur(8px);
   filter: blur(8px);
 }
+input[readonly], select[readonly], textarea[readonly], .form-control[readonly]:focus{
+  outline: 0;
+  border-color: #acacac !important;
+  border-width: 1px !important;
+}
