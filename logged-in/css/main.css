@@ -3100,6 +3100,9 @@ input.inactive {
   width: 270px;
   margin-top: 2px;
 }
+input.inactive.bg-f9{
+  background-color: #f9f9f9 !important;
+}
 
 @media (max-width: 991px) {
   input.inactive {
