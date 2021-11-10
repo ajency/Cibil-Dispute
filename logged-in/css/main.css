@@ -1049,7 +1049,8 @@ a:focus {
 @media (max-width: 991px) {
   .col-md-5,
   .col-md-6,
-  .col-md-3 {
+  .col-md-3,
+  .col-md-4 {
     width: 100%;
   }
 }
@@ -3087,8 +3088,19 @@ option:disabled {
 
 input {
   padding: 14px 16px 12px;
+  border: 1px solid #ACACAC !important;
 }
-
+textarea{
+  height: 50px;
+  padding: 14px 14px 13px 20px;
+  overflow: hidden;
+  border: 1px solid #ACACAC !important;
+}
+@media(max-width: 991px){
+  textarea{
+    height: auto;
+  }
+}
 input.default {
   background: #ffffff;
   border: 1px solid #acacac;
@@ -3883,4 +3895,14 @@ input[readonly], select[readonly], textarea[readonly], .form-control[readonly]:f
 }
 .contact-form .field input{
   width: 300px;
+}
+@media(max-width: 991px){
+  .contact-form .field{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .contact-form .field input{
+    width: 100%;
+  }
 }
