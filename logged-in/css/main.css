@@ -1085,11 +1085,20 @@ a:focus {
 .border-light {
   border: 1px solid #dde0ef;
 }
+.border-dark{
+  border: 1px solid #EDEDED;
+}
 .border-light-dd {
   border-top: 1px solid #dddddd;
 }
+.border-right-dd {
+  border-right: 1px solid #dddddd;
+}
 .border-light-ac {
   border-bottom: 1px solid #acacac !important;
+}
+.border-ac{
+  border: 1px solid #ACACAC !important;
 }
 .border-top-thick {
   height: 3px;
@@ -3106,7 +3115,9 @@ input.inactive {
 input.inactive.bg-f9{
   background-color: #f9f9f9 !important;
 }
-
+input.inactive.bg-dd{
+  background-color: #dddddd !important;
+}
 @media (max-width: 991px) {
   input.inactive {
     width: 100%;
@@ -3869,4 +3880,7 @@ input[readonly], select[readonly], textarea[readonly], .form-control[readonly]:f
   outline: 0;
   border-color: #acacac !important;
   border-width: 1px !important;
+}
+.contact-form .field input{
+  width: 300px;
 }
