@@ -3352,6 +3352,8 @@ input.inactive.bg-f9{
 }
 .account-section .column-type-1 {
   margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media screen and (min-width: 992px) {
   .account-section .column-type-1::after {
