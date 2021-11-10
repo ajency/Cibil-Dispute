@@ -1175,6 +1175,7 @@ a:focus {
     flex-wrap: nowrap;
   }
 }
+
 .link {
   text-decoration: underline;
   cursor: pointer;
@@ -3030,4 +3031,33 @@ video {
   .d-md-block{
     display: block !important;
   }
+}
+::placeholder {
+  font-family: Intro Book;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #707070;
+}
+
+:-ms-input-placeholder {
+  font-family: Intro Book;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #707070;
+}
+
+::-ms-input-placeholder { 
+  font-family: Intro Book;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #707070;
 }

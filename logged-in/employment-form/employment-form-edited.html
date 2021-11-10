@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Personal info name edited</title>
+    <title>Employment Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
-    <link type="image/x-icon" href="https:///assets.transunion.com/resources/img/ico/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="https://assets.transunion.com/resources/img/ico/favicon.ico" rel="shortcut icon">
     <link rel="stylesheet" href="https://assets.transunion.com/resources/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="https://assets.transunion.com/resources/css/tu-main.css">
     <link rel="stylesheet" href="../vendor/slick/slick.css">
@@ -31,7 +31,7 @@
                                 <img src="../img/forward-arrow-dark.svg" class="f-arrow px-md-10 px-sm-10" alt="forward-arrow">
                                 <li class="breadcrumbs-listing--list bg-f9 para-regular-dark f-14"><a href="../dispute-logged-in.html">Dispute Center</a></li>
                                 <img src="../img/forward-arrow-dark.svg" class="f-arrow px-md-10 px-sm-10" alt="forward-arrow">
-                                <li class="breadcrumbs-listing--list bg-f9 text-ellipsis-sm">Personal Information Form</li>
+                                <li class="breadcrumbs-listing--list bg-f9 text-ellipsis-sm">Employment Information Form</li>
                             </ul>
                         </div>
                         <div class="d-block">
@@ -39,8 +39,8 @@
                         </div>
 
                     </div>
-                    <h1 class="page-title-h1 mb-md-20 mt-0">Personal Information Form</h1>
-                    <div class="para-regular-dark mb-md-20 mb-sm-30">
+                    <h1 class="page-title-h1 mb-md-20 mt-0">Employment Information Form</h1>
+                    <div class="para-regular-dark mb-md-20">
                         Edit the inaccurate data and file a dispute
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         Control Number : 3,865,813,852
                     </div>
                     <div class="bg-white border-light border-radius-4 p-10 para-dark">
-                        Reported Date: 21-02-2021
+                        Reported Date: 12/04/2021
                     </div>
                 </div>
                 <div class="section bg-light-gold mt-md-30 mb-md-30 mb-sm-20 border-radius-8">
@@ -76,60 +76,81 @@
                 <div class="section bg-white border-light border-radius-6 mb-md-30 mb-sm-20">
                     <div class="p-md-30 pb-md-0 p-sm-20 ">
                         <div class="section-title mb-md-20 mb-sm-20">
-                            Personal details
+                            Employment Details
                         </div>
                         <form action="" class="personal-info-form">
-                            <div class="form-group">
-                                <label for="">Name</label>
-                                <input type="text" value="Ramesh Sharma Kumar Nathsrinivasan">
+                            <div class="two-column">
+                                <div class="form-group mr-md-20 mb-sm-30 mb-0">
+                                    <label for="">Account Type</label>
+                                    <input type="text" class="para-dark text-black" placeholder="Auto Loan Personal">
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label for="">Date Reported</label>
+                                    <input type="text" class="para-dark text-black" placeholder="12/04/2021">
+                                </div>
                             </div>
                        
                             <div class="two-column mt-md-30 mt-sm-30">
                                 <div class="form-group mr-md-20 mb-sm-30 mb-0">
-                                    <label for="">Date Of Birth</label>
-                                    <input type="text" value="14/05/1996">
+                                    <label for="">Occupation</label>
+                                    <select class="form-select para-dark w-100 text-black" aria-label="Default select example">
+                                        <option disabled></option>
+                                        <option  class="para-light f-16" disabled>Select Occupation</option>
+                                        <option disabled></option>
+                                        <option selected class="para-dark">Salaried</option>
+                                        <option disabled></option>
+                                        <option  class="para-dark">Self Employed Professional</option>
+                                        <option disabled></option>
+                                        <option class="para-dark">Self Employed</option>
+                                        <option disabled></option>
+                                        <option  class="para-dark">Others</option>
+                                        <option disabled></option>
+                                    </select> 
+                                    <div class="form-icon-text">
+                                        <div class="icon-text2 mb-sm-10">
+                                            <img src="../img/info-red.svg" alt="info" class="icon" height="20px" width="20px">
+                                            <div class="form-text">
+                                                <span class="d-sm-block">Edited :</span> Self Employed
+                                            </div>
+                                        </div>
+                                    </div>                               
                                 </div>
                                 <div class="form-group mb-0">
-                                    <label for="">Gender</label>
-                                    <select class="form-select para-dark w-100" aria-label="Default select example">
-                                        <option selected class="para-dark">Male</option>
-                                        <option  class="para-dark">Female</option>
-                                        <option  class="para-dark">Others</option>
-                                    </select>
+                                    <label for="">Income</label>
+                                    <input type="text" class="para-dark text-black" value="25,000">
+                                </div>
+                            </div>
+
+                            <div class="two-column mt-md-30 mt-sm-30">
+                                <div class="form-group mr-md-20 mb-sm-30 mb-0">
+                                    <label for="">Net / Gross Income Indicator</label>
+                                    <select class="form-select para-dark w-100 text-black" aria-label="Default select example">
+                                        <option selected class="para-dark">Gross Income</option>
+                                    </select>                                
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label for="" class="white-space-nowrap-md">Monthly / Annual Income Indicator</label>
+                                    <select class="form-select para-dark w-100 text-black" aria-label="Default select example">
+                                        <option selected class="para-dark">Monthly</option>
+                                    </select>                                
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="p-md-30 pb-md-20 p-sm-20 pt-sm-10">
-                        <div class="section-title mb-md-10 mb-sm-20">
-                            Identification Type
-                        </div>
-                        <form action="" class="personal-info-form">
-                            <div class="two-column pb-md-10">
-                                <div class="form-group">
-                                    <label for="">PAN Card (Income Tax ID)</label>
-                                    <div class="d-flex align-items-center flex-column-sm  align-items-start-sm mb-5">
-                                        <input type="text" value="BIMRI4012P">
-                                        <div class="dates d-flex flex-column flex-column-sm ml-md-20">
-                                            <span class="para-regular-light mb-md-6 mt-sm-10 text-dark-black-sm">Issue Date : --</span>
-                                            <span class="para-regular-light mt-sm-10 text-dark-black-sm">Expiry Date : --</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
                         <div class="border-line mt-md-10 mt-sm-10"></div>
-                        <div class="button-group button-group-form d-flex justify-content-end justify-content-center-sm mt-md-30 mb-md-10 mr-md-30 mt-sm-20">
-                            <a href="javascript:void(0)" class="light-button reset border-radius-25 para-regular-light text-capitalize in-active-outline text-decoration-none mr-md-30 mr-sm-30">
+                        <div class="button-group button-group-form d-flex justify-content-end justify-content-center-sm mt-md-30 mb-md-10 mt-sm-20">
+                            <a href="javascript:void(0)" class="light-button reset border-radius-25 para-regular-light text-capitalize tertiary-button tertiary-button-outline text-decoration-none mr-md-30 mr-sm-20">
                                 reset
                             </a>
-                            <a href="personal-info-name-selected.html" class="light-button-filled continue text-capitalize border-radius-25 para-regular-light text-decoration-none in-active-filled">
+                            <a href="employment-review.html" class="light-button-filled continue text-capitalize border-radius-25 para-regular-light text-decoration-none tertiary-button tertiary-button-filled ml-sm-10">
                                 continue
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+         
         </div>
     </div>
     <div class="ls-row" id="footerSection">
@@ -403,15 +424,6 @@
     <script src="https://assets.transunion.com/resources/js/lib/min/jquery.min.js"></script>
     <script src="https://assets.transunion.com/resources/js/lib/min/bootstrap.min.js"></script>
     <script src="https://assets.transunion.com/resources/js/lib/min/slick.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            $('input').on('keyup', function(){
-                $(".button-group-form a.reset").removeClass("light-button in-active-outline").addClass("tertiary-button tertiary-button-outline");
-                $(".button-group-form a.continue").removeClass("light-button in-active-filled").addClass("tertiary-button tertiary-button-filled");
-            });
-      });
-
-    </script>
 </body>
 
 </html>

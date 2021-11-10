@@ -246,7 +246,7 @@
   font-size: 14px;
 }
 .f-16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 .f-24 {
   font-size: 24px;
@@ -475,6 +475,9 @@ a:focus {
 }
 
 @media screen and (max-width: 991px) {
+  .mb-sm-0 {
+    margin-bottom: 0 !important;
+  }
   .mb-sm-4 {
     margin-bottom: 4px;
   }
@@ -1202,6 +1205,16 @@ a:focus {
 @media (max-width: 991px) {
   .flex-nowrap-sm {
     flex-wrap: nowrap;
+  }
+}
+@media (min-width: 992px) {
+  .white-space-nowrap-md {
+    white-space: nowrap;
+  }
+}
+@media (max-width: 991px) {
+  .white-space-nowrap-sm {
+    white-space: nowrap;
   }
 }
 .link {
@@ -3038,8 +3051,16 @@ video {
   appearance: none;
   background: url(../img/dropdown-arrow.svg) no-repeat right #fff;
   background-position-x: 95%;
+  transition: background-position 400ms ease-in-out;
 }
-
+.form-select:active {
+  background: url(../img/forward-arrow-up.svg) no-repeat right #fff;
+  background-position-x: 95%;
+  transition: background-position 400ms ease-in-out;
+}
+option:disabled {
+  font-size: 8px;
+}
 @media (max-width: 991px) {
   .form-select {
     width: 100%;
