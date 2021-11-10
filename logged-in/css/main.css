@@ -425,6 +425,9 @@ a:focus {
 .pt-0 {
   padding-top: 0 !important;
 }
+.pb-0 {
+  padding-bottom: 0 !important;
+}
 .mb-1 {
   margin-bottom: 1px;
 }
