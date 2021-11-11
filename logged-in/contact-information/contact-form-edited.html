@@ -615,7 +615,7 @@
     <script src="https://assets.transunion.com/resources/js/lib/min/slick.min.js"></script>
     <script type="text/javascript">
         $(function(){
-            $('input').on('keyup', function(){
+            $('input, textarea').on('keyup', function(){
                 $(".button-group-form a.reset").removeClass("light-button in-active-outline").addClass("tertiary-button tertiary-button-outline");
                 $(".button-group-form a.continue").removeClass("light-button in-active-filled").addClass("tertiary-button tertiary-button-filled");
             });
