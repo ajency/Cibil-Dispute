@@ -390,7 +390,7 @@ a:focus {
   position: relative;
 }
 .mt-0 {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 .mb-0 {
   margin-bottom: 0;
@@ -3095,6 +3095,12 @@ textarea{
   padding: 14px 14px 13px 20px;
   overflow: hidden;
   border: 1px solid #ACACAC !important;
+}
+textarea:focus{
+  border-color: #00A6CA !important;
+  border-width: 2px !important;
+  box-shadow: none;
+  outline: none;
 }
 @media(max-width: 991px){
   textarea{
