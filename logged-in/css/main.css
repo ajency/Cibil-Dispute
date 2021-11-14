@@ -2384,6 +2384,20 @@ header {
   padding: 20px;
   border-radius: 4px;
 }
+@media(min-width: 992px){
+  .collapsed .panel-heading-success{
+    padding: 30px;
+    border-radius: 8px;
+  }
+  .panel-heading-success{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  .success .panel > a:after{
+    top: 30px;
+  }
+}
 .panel-form .panel-default {
   border: 1px solid #ededed;
 }
