@@ -428,6 +428,24 @@ a:focus {
 .pb-0 {
   padding-bottom: 0 !important;
 }
+.mt-1 {
+  margin-top: 1px;
+}
+.mt-2 {
+  margin-top: 2px;
+}
+.mt-3 {
+  margin-top: 3px;
+}
+.mt-4 {
+  margin-top: 4px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-6 {
+  margin-top: 6px;
+}
 .mb-1 {
   margin-bottom: 1px;
 }
@@ -797,6 +815,9 @@ a:focus {
   .p-md-60 {
     padding: 60px;
   }
+  .mt-md-3{
+    margin-top: 3px;
+  }
   .mt-md-10 {
     margin-top: 10px;
   }
@@ -1100,6 +1121,12 @@ a:focus {
 }
 .border-ac{
   border: 1px solid #ACACAC !important;
+}
+.border-green{
+  border: 1px solid #3BB012;
+}
+.border-red{
+  border: 1px solid #D74025;
 }
 .border-top-thick {
   height: 3px;
